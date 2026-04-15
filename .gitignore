@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.local
+*.key
+config/secrets.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Generated outputs
+generated/
+output/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+!templates/post_templates/*
+!examples/*
+!docs/img/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude project artifacts (when developing locally)
+my-linkedin-growth/
+test-project/
