@@ -3,8 +3,8 @@
 Metodo: `linkedin-growth-skill` (audit con `rules/scoring_rubric.md`, riscrittura con `rules/humanization_rules.md` e `rules/content_strategy.md`, calendario con `rules/posting_schedule.md`). Indicazioni PT/EN e Brasile ignorate, tutto adattato a Italia / B2B / Europe/Rome.
 `founder-voice-profile` non è disponibile in questo ambiente: voce e tono sono stati calibrati con le regole di humanization della skill.
 
-**Fonti usate:** export PDF del profilo (29/09/2026), brief iniziale, conferme in chat (numeri Istante Viaggi, consenso del cliente, date, email, sito, contesto Puzzle Family).
-**Non incluso nel PDF di LinkedIn:** foto, banner, In primo piano, attività, raccomandazioni, elenco completo delle skill. Queste aree restano [INFORMAZIONE DA VERIFICARE] finché non mandi gli screenshot.
+**Fonti usate:** export PDF del profilo (29/09/2026), screenshot dell'intestazione del profilo (foto, banner, nome, headline, link, collegamenti), brief iniziale, conferme in chat (numeri Istante Viaggi, consenso del cliente, date, email, sito, contesto Puzzle Family).
+**Ancora non visti:** In primo piano, attività, raccomandazioni, elenco completo delle skill, pagina Servizi. Queste aree restano [INFORMAZIONE DA VERIFICARE].
 
 ---
 
@@ -23,19 +23,24 @@ Tre cose da sistemare prima di tutto il resto:
 
 ### Audit per area
 
-#### Nome, URL, contatti
-- **Cosa funziona:** località Roma: per un titolare italiano è un segnale di vicinanza, e LinkedIn la usa nei filtri di ricerca.
-- **Cosa non funziona:** nome "Mariano Simone Stavolo" e URL `/mariano-simone-stavolo`, mentre ti presenti ovunque come Simone Stavolo. Email di contatto Gmail personale. Nessun sito nei contatti.
-- **Cosa manca:** sito primesystemai.com, email aziendale, link personalizzato nell'introduzione.
-- **Cosa cambiare:** URL personalizzato (`/simonestavolo` se libero). Valuta di mostrare "Simone Stavolo" come nome: LinkedIn chiede il nome reale e "Simone" lo è; se preferisci tenere Mariano per coerenza con documenti e fatture, lascialo, ma cambia almeno l'URL. Email e sito aziendali nei contatti.
+#### Nome, URL, contatti, intestazione
+- **Cosa funziona:** badge di verifica dell'identità accanto al nome: è un segnale di fiducia reale, tienilo. Località Roma: per un titolare italiano è vicinanza, e LinkedIn la usa nei filtri. Il link https://primesystemai.com/ è già nell'intestazione. PrimeSystemAI compare come azienda attuale con logo. Nessuna cornice #OpenToWork sulla foto: corretto, non cerchi lavoro.
+- **Cosa non funziona:** URL `/mariano-simone-stavolo`, mentre ti presenti ovunque come Simone Stavolo. Email di contatto Gmail personale. Il link nell'intestazione mostra l'indirizzo nudo, senza un testo che dica cosa trova chi clicca. 143 collegamenti: pochi per far girare i contenuti tra i titolari che ti interessano.
+- **Cosa manca:** email aziendale, testo descrittivo sul link, una rete costruita sul target.
+- **Cosa cambiare:** URL personalizzato (`/simonestavolo` se libero). **Il nome non lo cambierei:** su LinkedIn modificare il nome dopo la verifica fa perdere il badge, e il badge vale più della coerenza con "Simone". Mariano Simone Stavolo contiene comunque "Simone Stavolo" e viene trovato con quella ricerca. Email aziendale nei contatti; testo del link: "Casi e contatti · PrimeSystemAI". In "Disponibile per" imposta "Fornire servizi" (è la pagina Servizi), non "Trovare lavoro".
 
 #### Foto profilo
-- [INFORMAZIONE DA VERIFICARE: non inclusa nel PDF]
-- Criteri per valutarla da solo: viso circa 60% del frame, occhi a fuoco, sfondo neutro o ambiente di lavoro reale sfocato, niente luci LED, setup gaming o filtri, leggero sorriso. Deve comunicare "persona con cui fare una call di lavoro".
+- **Cosa funziona:** è la parte migliore dell'intestazione. Primo piano nitido, sguardo in camera, sorriso naturale, viso ben inquadrato, maglia scura semplice. Comunica una persona giovane e disponibile, che è coerente con "giovane founder operativo".
+- **Cosa non funziona:** lo sfondo. Il gradiente blu-viola con alone luminoso è esattamente l'estetica "AI/tech" che vuoi evitare, e insieme al banner attuale rafforza l'effetto "creator di tool AI".
+- **Cosa manca:** un po' di spalle/busto in più, per un'aria meno da avatar social e più da professionista (il viso può scendere leggermente sotto il 60% del cerchio).
+- **Cosa cambiare:** tieni scatto, espressione e abbigliamento, cambia solo lo sfondo: grigio caldo, avorio o un ambiente di lavoro reale sfocato. Si può fare con una nuova foto oppure con una sostituzione dello sfondo senza toccare il viso (la skill lo prevede con `generate_image_nano.py`, serve una chiave Gemini). Se rifai lo scatto: luce naturale laterale da finestra, stessa espressione.
 
 #### Banner
-- [INFORMAZIONE DA VERIFICARE: non incluso nel PDF]
-- Da eliminare se presente: grigio di default, stock "AI" (robot, circuiti, blu/viola). Sostituire con uno dei concept in Fase 9.
+Attuale: "AUTOMAZIONI AI · Per il Tuo Successo", circa dieci loghi di tool (tra cui Make, Slack, HubSpot, OpenAI) disposti a griglia, tracce di circuito, fondo blu-verde scuro con bagliore, box con il logo PrimeSystemAI a destra.
+- **Cosa funziona:** è brandizzato, il nome PrimeSystemAI si vede, e "Automazioni AI" è una keyword giusta.
+- **Cosa non funziona:** tutto il resto va contro il posizionamento. "Per il Tuo Successo" è lo slogan più intercambiabile possibile. La griglia di loghi dice "installo tool", cioè il contrario di "parto dal processo", e usa marchi di terzi come decorazione. Circuiti e bagliore blu sono proprio l'estetica "AI guru" da evitare. Su mobile il box del logo a destra viene tagliato.
+- **Cosa eliminare:** loghi dei tool, circuiti, slogan, bagliori.
+- **Cosa cambiare:** concept 1 della Fase 9. Nota a margine: anche il logo PrimeSystemAI (icona tipo chip/cervello con circuiti) va nella stessa direzione "AI tech". Non è un intervento da fare adesso, ma nel banner nuovo usa solo il nome scritto (wordmark), non l'icona.
 
 #### Headline
 Attuale: `Potenzio aziende con soluzioni AI avanzate | Automazione dei processi e lead generation` (87 caratteri su 220)
@@ -105,6 +110,10 @@ Principali attuali: E-commerce, Intelligenza artificiale per aziende, Intelligen
 - **Cosa funziona:** "automazione dei processi", "lead generation", "intelligenza artificiale" sono già presenti.
 - **Cosa manca:** WhatsApp, CRM, voice agent / assistente telefonico, AI agent, n8n, follow-up, riattivazione clienti, PMI. Mancano nei campi che pesano di più (headline e titolo del ruolo).
 
+#### Collegamenti
+- 143 collegamenti. Non è un problema di immagine, ma limita la distribuzione dei post: LinkedIn li mostra prima di tutto alla tua rete.
+- **Cosa fare:** 15–25 inviti a settimana, mandati a mano, a titolari e responsabili commerciali di PMI italiane nei settori dove hai casi (viaggi, hospitality, e-commerce, servizi). Nota breve e specifica, niente pitch nel primo messaggio. Obiettivo: 500 collegamenti mirati in 3–4 mesi. Niente tool di automazione degli inviti: violano i termini di LinkedIn.
+
 #### Chiarezza del posizionamento, credibilità, proof, coerenza
 - **Chiarezza:** bassa. Chi legge capisce "fa cose con l'AI", non capisce cosa gli risolvi.
 - **Credibilità:** oggi si regge solo sulle tue parole ("specializzato"). Il profilo nuovo si regge su un caso con nome e numeri, autorizzato dal cliente.
@@ -115,8 +124,8 @@ Principali attuali: E-commerce, Intelligenza artificiale per aziende, Intelligen
 
 | Sezione | Peso | Punteggio attuale | Motivo | Target |
 |---|---|---|---|---|
-| Foto profilo | 15% | n.d. | Non nel PDF | 75+ |
-| Banner | 8% | n.d. | Non nel PDF | 80+ |
+| Foto profilo | 15% | **68** | Scatto, espressione e inquadratura buoni; sfondo blu-viola "tech" | 80+ |
+| Banner | 8% | **35** | Brandizzato ma slogan generico, loghi di tool, circuiti | 80+ |
 | Headline | 15% | **40** | Keyword giuste, ma nessun ruolo, nessun target, aggettivi generici | 80+ |
 | Info | 15% | **35** | Paragrafo generico, buzzword, nessun numero; la CTA c'è | 85+ |
 | Featured | 5% | n.d. | Non nel PDF | 75+ |
@@ -126,9 +135,9 @@ Principali attuali: E-commerce, Intelligenza artificiale per aziende, Intelligen
 | Attività | 16% | n.d. | Non nel PDF | 70 |
 | Bilingue | 0% | n.a. | Pubblico italiano: peso spostato su Attività (regola della skill) | n.a. |
 
-**Punteggio sulle sezioni misurabili: circa 36/100.** La rubric indica circa 60 per un profilo "sufficiente".
+**Punteggio sulle sezioni misurabili (foto, banner, headline, Info, esperienza, skill): circa 42/100.** La rubric indica circa 60 per un profilo "sufficiente". La foto alza la media; tutto il resto è sotto 45.
 
-Priorità (peso × distanza dal target × sforzo basso): **1. Info · 2. Headline · 3. Esperienza PrimeSystemAI + Progetti.** Tutte e tre si fanno in un'ora con i testi qui sotto.
+Priorità (peso × distanza dal target × sforzo basso): **1. Info · 2. Headline · 3. Esperienza PrimeSystemAI + Progetti · 4. Banner.** Le prime tre si fanno in un'ora con i testi qui sotto. Il banner è la quarta perché pesa meno, ma oggi è il primo elemento visivo che contraddice tutto il resto: conviene sostituirlo nella stessa settimana.
 
 ---
 
@@ -488,13 +497,15 @@ Su LinkedIn i nomi delle skill sono standardizzati: scegli la voce suggerita pi�
 ## FASE 9 — BANNER
 
 Formato 1584 × 396 px. Su desktop la foto copre la zona in basso a sinistra, su mobile il banner viene tagliato ai lati: testo nella metà destra, dentro l'area centrale.
+**Rispetto al banner attuale:** via la griglia di loghi, i circuiti, il bagliore e "Per il Tuo Successo". Resta solo il nome PrimeSystemAI (come testo, non con l'icona chip).
+
 Estetica comune: fondo carta/avorio o antracite, un solo colore d'accento (verde scuro, terracotta o blu inchiostro), serif editoriale per il titolo (es. Fraunces, Newsreader), sans pulito per il resto (es. Inter). Niente robot, cervelli, circuiti, neon, gradienti blu/viola.
 
 **Concept 1 · "Il processo"** (consigliato)
 - Headline: `L'AI è l'interfaccia. Il valore è nel processo.`
 - Subheadline: `Sistemi AI e automazioni per aziende · PrimeSystemAI`
 - Visivo: sotto il titolo, una riga sottile di sei etichette collegate da frecce: Messaggio → Classificazione → Dati → CRM → Follow-up → Operatore. Tratto sottile, stile schema su carta.
-- Layout: fondo avorio, titolo serif nero a destra su due righe, schema in piccolo sotto, logo PrimeSystemAI piccolo in alto a destra.
+- Layout: fondo avorio, titolo serif nero a destra su due righe, schema in piccolo sotto, "PrimeSystemAI" come testo piccolo in alto a destra (niente icona chip).
 
 **Concept 2 · "Il primo messaggio"**
 - Headline: `Progetto cosa succede dopo "Buongiorno, vorrei informazioni".`
@@ -530,7 +541,7 @@ Su LinkedIn pesano di più, in quest'ordine: nome, headline, titolo del ruolo at
 | Local SEO, Shopify, e-commerce | Bassa | Progetti, skill, una riga di Info |
 | PMI | Media | Headline alternativa 1, Info, Servizi, post |
 
-Altri campi: URL personalizzato `linkedin.com/in/simonestavolo` (se libero, altrimenti `/simone-stavolo`), località Roma (la tieni: aiuta nei filtri per zona), sito e link personalizzato nell'introduzione.
+Altri campi: URL personalizzato `linkedin.com/in/simonestavolo` (se libero, altrimenti `/simone-stavolo`), località Roma (la tieni: aiuta nei filtri per zona), testo descrittivo sul link dell'intestazione. Il nome resta "Mariano Simone Stavolo" per non perdere il badge di verifica: la ricerca "Simone Stavolo" ti trova lo stesso.
 
 ---
 
@@ -555,7 +566,7 @@ Ordinati per rapporto impatto / sforzo. Già risolti in chat: significato dei nu
 
 | # | Cosa manca | Impatto | Sforzo | Cosa fare |
 |---|---|---|---|---|
-| 1 | Contatti e identità allineati | Alto | Molto basso | Email aziendale, sito, URL personalizzato. 5 minuti |
+| 1 | Contatti e identità allineati | Alto | Molto basso | Email aziendale, URL personalizzato, testo del link, "Disponibile per: Fornire servizi". 5 minuti |
 | 2 | Raccomandazione da Istante Viaggi | Alto | Basso | Hanno già autorizzato nome e numeri: chiedila ora, con una traccia (situazione prima, cosa hai costruito, cosa è cambiato). Poi Lime e THE ALL |
 | 3 | Schema del flusso (immagine) | Alto | Basso | Una sola immagine: messaggio → AI → dati → CRM → routing → follow-up → operatore → analytics. Serve per Featured, banner e post |
 | 4 | Case study PDF in Featured | Alto | Medio | 9 slide già scritte in Fase 6; mancano solo situazione e problema con parole dell'agenzia |
@@ -563,7 +574,8 @@ Ordinati per rapporto impatto / sforzo. Già risolti in chat: significato dei nu
 | 6 | Demo video 60–90 secondi | Alto | Medio | Conversazione di test → riassunto → passaggio al consulente |
 | 7 | Pagina case study su primesystemai.com | Medio | Medio | Da linkare in Featured e nel post [INFORMAZIONE DA VERIFICARE se esiste] |
 | 8 | Numeri per Lime e THE ALL | Medio | Medio | Solo se misurati: azioni da Google Business Profile, pagine indicizzate, ordini gestiti |
-| 9 | Foto profilo e banner verificati | Medio | Basso–medio | Mandami gli screenshot per l'audit visivo |
+| 9 | Banner nuovo e sfondo foto neutro | Medio-alto | Basso–medio | Il banner attuale contraddice il posizionamento; la foto va bene, cambia solo lo sfondo |
+| 9b | Rete mirata (oggi 143 collegamenti) | Medio | Basso, costante | 15–25 inviti manuali a settimana a titolari di PMI nei tuoi settori |
 | 10 | Data di inizio Puzzle Family | Basso | Molto basso | Agosto 2023 (brief) o febbraio 2024 (profilo attuale)? |
 | 11 | Profilo in inglese (seconda lingua dello stesso profilo) | Basso ora | Medio | Solo se inizi a lavorare fuori Italia. Mai un secondo account |
 | 12 | Certificazioni | Basso | Variabile | Per il tuo target contano meno di un caso documentato |
@@ -748,6 +760,8 @@ Messaggio → Classificazione → Dati → CRM → Follow-up → Operatore
 ## CTA / CONTACT INFO
 Link personalizzato (introduzione profilo): `https://primesystemai.com/` · testo: `Casi e contatti · PrimeSystemAI`
 Sito web (Informazioni di contatto): `https://primesystemai.com/` · tipo: `Azienda`
+Disponibile per: `Fornire servizi`
+Nome: `Mariano Simone Stavolo` (invariato, mantiene il badge di verifica)
 Email: `simone.stavolo@primesystemai.com`
 URL profilo: `linkedin.com/in/simonestavolo`
 Località profilo: `Roma, Lazio, Italia`
@@ -763,8 +777,8 @@ Se in azienda c'è un processo che dipende da qualcuno che risponde, copia dati 
 Prima di iniziare: Impostazioni → Visibilità → disattiva "Condividi le modifiche del profilo" (la voce che notifica la rete), così non mandi una notifica ai collegamenti per ogni modifica.
 
 **Giorno 1 (circa 1 ora, nessun materiale nuovo necessario)**
-1. Informazioni di contatto: sostituisci la Gmail con simone.stavolo@primesystemai.com, aggiungi il sito https://primesystemai.com/.
-2. URL pubblico: da `/mariano-simone-stavolo` a `/simonestavolo` (se libero). Decidi se mostrare "Simone Stavolo" come nome.
+1. Informazioni di contatto: sostituisci la Gmail con simone.stavolo@primesystemai.com. Sul link dell'intestazione aggiungi il testo "Casi e contatti · PrimeSystemAI".
+2. URL pubblico: da `/mariano-simone-stavolo` a `/simonestavolo` (se libero). Non cambiare il nome, per non perdere il badge di verifica. In "Disponibile per" scegli "Fornire servizi".
 3. Esperienza PrimeSystemAI: titolo, località "Da remoto", descrizione nuova (cancella i tre bullet attuali).
 4. Esperienza "Freelance" → rinominala: azienda Puzzle Family, titolo E-commerce Manager, date verificate, descrizione nuova.
 5. Sezione Progetti: Istante Viaggi, Lime Tropical Bistrot, THE ALL, tutti associati a PrimeSystemAI.
@@ -775,8 +789,9 @@ Prima di iniziare: Impostazioni → Visibilità → disattiva "Condividi le modi
 
 **Giorno 2–3**
 10. Headline. È l'ultima modifica testuale: se vuoi che la rete veda il cambio, riattiva la condivisione solo per questa.
-11. Banner: concept 1 in 1584 × 396; controlla da desktop e da mobile che la foto non copra il testo.
-12. Foto profilo, dopo l'audit visivo (mandami lo screenshot).
+11. Banner: sostituisci quello attuale con il concept 1 in 1584 × 396; controlla da desktop e da mobile che la foto non copra il testo.
+12. Foto profilo: stessa foto, sfondo neutro (grigio caldo o avorio) al posto del gradiente blu-viola.
+12b. Da qui in poi, ogni settimana: 15–25 inviti manuali mirati a titolari di PMI.
 
 **Settimana 1–2**
 13. Chiedi la raccomandazione a Istante Viaggi, poi a Lime e THE ALL.
@@ -789,4 +804,4 @@ Prima di iniziare: Impostazioni → Visibilità → disattiva "Condividi le modi
 18. Avvio calendario: 2 post a settimana, martedì e giovedì 08:30–09:30.
 
 **Dopo 30 giorni**
-19. Mandami gli analytics dei post (visualizzazioni, reazioni, commenti, visite al profilo) e il nuovo PDF del profilo: rifaccio lo scoring rispetto a oggi (circa 36/100 sulle sezioni misurabili) e aggiusto calendario ed eventualmente headline (test con la proposta 1).
+19. Mandami gli analytics dei post (visualizzazioni, reazioni, commenti, visite al profilo) e il nuovo PDF del profilo: rifaccio lo scoring rispetto a oggi (circa 42/100 sulle sezioni misurabili) e aggiusto calendario ed eventualmente headline (test con la proposta 1).

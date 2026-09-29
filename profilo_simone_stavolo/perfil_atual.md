@@ -11,12 +11,24 @@
 - **Località:** Roma, Lazio, Italia
 - **URL profilo:** www.linkedin.com/in/mariano-simone-stavolo
 - **Email di contatto visibile:** indirizzo Gmail personale
-- **Sito web nei contatti:** assente nel PDF
+- **Sito web:** https://primesystemai.com/ (presente nell'intestazione, non nell'export PDF)
 - **Lingue del profilo:** solo italiano
 
-## Foto profilo e banner
+## Intestazione (da screenshot, 29/09/2026)
 
-Non inclusi nell'export PDF. [INFORMAZIONE DA VERIFICARE: servono screenshot]
+- **Nome:** Mariano Simone Stavolo, con badge di verifica dell'identità
+- **Link nell'intestazione:** https://primesystemai.com/ (indirizzo nudo, senza testo)
+- **Collegamenti:** 143
+- **Azienda attuale mostrata:** PrimeSystemAI (logo: icona chip/cervello con circuiti)
+- **Cornice #OpenToWork:** assente
+
+## Foto profilo
+
+Primo piano, sguardo in camera, sorriso naturale, maglia scura, inquadratura corretta. Sfondo con gradiente blu-viola e alone luminoso.
+
+## Banner
+
+Testo "AUTOMAZIONI AI · Per il Tuo Successo"; griglia di circa dieci loghi di tool (tra cui Make, Slack, HubSpot, OpenAI); tracce di circuito; fondo blu-verde scuro con bagliore; box con logo PrimeSystemAI a destra.
 
 ## Riepilogo / Info (testo attuale, 619 caratteri)
 
