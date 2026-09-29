@@ -1,9 +1,10 @@
 # Revisione e ricostruzione del profilo LinkedIn: Simone Stavolo
 
 Metodo: `linkedin-growth-skill` (audit con `rules/scoring_rubric.md`, riscrittura con `rules/humanization_rules.md` e `rules/content_strategy.md`, calendario con `rules/posting_schedule.md`). Indicazioni PT/EN e Brasile ignorate, tutto adattato a Italia / B2B / Europe/Rome.
-`founder-voice-profile` non è disponibile in questo ambiente: voce e tono sono stati calibrati solo con le regole di humanization della skill.
+`founder-voice-profile` non è disponibile in questo ambiente: voce e tono sono stati calibrati con le regole di humanization della skill.
 
-> **Nota importante sull'input.** Il profilo LinkedIn attuale (PDF, screenshot o testo) non è arrivato in questa sessione e non era nel Drive collegato. L'audit quindi separa due cose: quello che posso valutare dal brief (posizionamento, proof, coerenza, contenuti disponibili) e quello che richiede il profilo reale, marcato [INFORMAZIONE DA VERIFICARE]. Non ho assegnato punteggi a sezioni che non ho visto. Appena carichi il PDF faccio lo scoring numerico completo e confronto con questa proposta.
+**Fonti usate:** export PDF del profilo (29/09/2026), brief iniziale, conferme in chat (numeri Istante Viaggi, consenso del cliente, date, email, sito, contesto Puzzle Family).
+**Non incluso nel PDF di LinkedIn:** foto, banner, In primo piano, attività, raccomandazioni, elenco completo delle skill. Queste aree restano [INFORMAZIONE DA VERIFICARE] finché non mandi gli screenshot.
 
 ---
 
@@ -11,76 +12,147 @@ Metodo: `linkedin-growth-skill` (audit con `rules/scoring_rubric.md`, riscrittur
 
 ### Lettura d'insieme
 
-Dal brief emergono tre punti che decidono tutto il resto:
+Il profilo attuale descrive una persona che vende "soluzioni AI avanzate" e "chatbot personalizzati" ad "aziende di ogni dimensione". È esattamente il posizionamento che vuoi evitare: potrebbe essere firmato identico da centinaia di agenzie.
 
-1. **Hai un proof vero e raro.** Un sistema in produzione per un'agenzia viaggi, con numeri misurati (20 clienti riattivati in 48 ore, circa 40.000 € nel primo mese dalla campagna). La maggior parte dei profili "AI" italiani non ha niente di simile. Oggi il rischio è che sia sepolto o non ci sia affatto.
-2. **Il rischio principale è sembrare "tutto".** AI agent, chatbot, voice, siti, SEO, Shopify, email, recensioni. Detto in lista, sembra un freelance generalista. Detto come "l'infrastruttura intorno al sistema AI", diventa un vantaggio.
-3. **Due brand, un profilo.** PrimeSystemAI (azienda, lato commerciale) e Simone AI-Consulting / @simonestavolo.ai (contenuti). Su LinkedIn il brand principale deve essere uno: PrimeSystemAI. Il personal brand vive nei contenuti, non nella headline.
+Il problema non è la qualità del tuo lavoro. È che il lavoro non compare. Nel profilo non c'è Istante Viaggi, non ci sono i 20 clienti riattivati, non ci sono i 40.000 €, non c'è il flusso messaggio → CRM → operatore. Ci sono solo aggettivi.
+
+Tre cose da sistemare prima di tutto il resto:
+1. **Sostituire gli aggettivi con il caso Istante Viaggi.** È il proof più forte che hai e oggi è invisibile.
+2. **Smettere di presentarti come "chatbot".** La parola compare nel Riepilogo e nella prima riga dell'esperienza PrimeSystemAI.
+3. **Allineare identità e contatti.** Nome, URL ed email oggi raccontano una persona diversa da quella dei tuoi contenuti (Simone Stavolo, @simonestavolo.ai, PrimeSystemAI).
 
 ### Audit per area
 
-Per ogni area: cosa funziona, cosa non funziona, cosa manca, cosa eliminare, cosa cambiare. Dove serve il profilo reale lo indico.
+#### Nome, URL, contatti
+- **Cosa funziona:** località Roma: per un titolare italiano è un segnale di vicinanza, e LinkedIn la usa nei filtri di ricerca.
+- **Cosa non funziona:** nome "Mariano Simone Stavolo" e URL `/mariano-simone-stavolo`, mentre ti presenti ovunque come Simone Stavolo. Email di contatto Gmail personale. Nessun sito nei contatti.
+- **Cosa manca:** sito primesystemai.com, email aziendale, link personalizzato nell'introduzione.
+- **Cosa cambiare:** URL personalizzato (`/simonestavolo` se libero). Valuta di mostrare "Simone Stavolo" come nome: LinkedIn chiede il nome reale e "Simone" lo è; se preferisci tenere Mariano per coerenza con documenti e fatture, lascialo, ma cambia almeno l'URL. Email e sito aziendali nei contatti.
 
-| Area | Cosa funziona | Cosa non funziona / rischio | Cosa manca | Cosa eliminare | Cosa cambiare |
-|---|---|---|---|---|---|
-| **Foto profilo** | [DA VERIFICARE] | Tipico errore nel settore: foto "tech" scura, sfondo con monitor/luci LED, occhiali da sole, selfie | [DA VERIFICARE] | Qualsiasi filtro, sfondo con neon o setup gaming | Viso ~60% del frame, sfondo neutro chiaro o ambiente di lavoro reale sfocato, camicia o maglia scura semplice, leggero sorriso. Deve dire "persona con cui posso fare una call di lavoro" |
-| **Banner** | [DA VERIFICARE] | Se è il grigio di default o uno stock "AI" (robot, circuiti, blu/viola) lavora contro di te | Messaggio di posizionamento | Immagini stock AI | Uno dei 3 concept in Fase 9 |
-| **Headline** | [DA VERIFICARE] | Rischi comuni: "AI Consultant \| Automation \| n8n \| Make \| ChatGPT" (insalata di keyword) o "Founder @ PrimeSystemAI" da solo (nessuno sa cosa sia) | Per chi lavori e cosa risolvi | Parole tipo "appassionato", "esperto", "innovazione" | Una delle 5 proposte in Fase 3 |
-| **Info / About** | [DA VERIFICARE] | Rischio: elenco servizi o frasi da agenzia ("aiutiamo le aziende a innovare con l'AI") | Il concetto "AI = interfaccia, valore = processo"; il caso Istante Viaggi con numeri; una CTA sobria | Frasi generiche, liste di tool lunghe | Riscrittura completa (Fase 4) |
-| **Featured / In primo piano** | [DA VERIFICARE] | Se vuota o con link generici non genera fiducia | Case study documentato, demo, schema del processo | Post non collegati al posizionamento (news AI) | Struttura in Fase 7 |
-| **Esperienza PrimeSystemAI** | Il ruolo di founder c'è | Rischio: lista di servizi senza esempi né risultati | Come lavori, esempi, risultati | Elenco di 20 tool | Riscrittura in Fase 5 |
-| **Esperienze precedenti** | Puzzle Family dà continuità (e-commerce → sistemi per vendere) | [DA VERIFICARE] se oggi è descritta | Una o due righe concrete | Nulla, se è breve | Tenerla corta e fattuale. Non competere con PrimeSystemAI |
-| **Progetti** | Hai 3 progetti reali e diversi | Probabilmente assenti o sparsi | Sezione Progetti con Istante Viaggi, Lime, THE ALL | Dettagli da ticket tecnico (canonical, redirect uno per uno) | Titoli e descrizioni in Fase 6 |
-| **Servizi** | [DA VERIFICARE] se la pagina Servizi è attiva | Se attiva con 10 servizi scollegati, diluisce | Descrizione servizi coerente | Servizi non centrali (es. grafica, social media management, se presenti) | 5–7 servizi e descrizione in "Ready to paste" |
-| **Competenze** | [DA VERIFICARE] | Tipico: skill generiche (Microsoft Office, Social media) o 30 tool | Top 5 allineate alla headline | Skill che non vendi | Lista in Fase 8 |
-| **Raccomandazioni** | [DA VERIFICARE] | Per un founder B2B, zero raccomandazioni da clienti è il gap più visibile dopo il case study | 2–3 raccomandazioni da clienti (Istante Viaggi, Lime, THE ALL) | Raccomandazioni "di cortesia" non specifiche | Richiedile con una traccia (Gap analysis) |
-| **Creator / attività** | Produci già contenuti con costanza (guide pratiche, script video) | Il rischio che citi tu: sembrare una pagina di AI news. Guide su tool e novità Claude portano follower tech, non titolari di PMI | Post su casi, processi, dietro le quinte dei sistemi | Nulla da cancellare, ma sposta il mix | Pilastri contenuto più sotto |
-| **Call to action** | [DA VERIFICARE] | CTA assenti o da landing page americana ("Prenota ORA la tua call gratuita 🚀") | Una frase sobria + email + link sito | Emoji, urgenza finta | Chiusura About, sezione Contatti, link personalizzato |
-| **SEO interno LinkedIn** | [DA VERIFICARE] | Le keyword contano soprattutto in headline, titolo esperienza, About, skills | "automazione processi aziendali", "AI agent", "WhatsApp", "CRM", "n8n", "Make" nei campi che pesano | Keyword stuffing | Mappa in Fase 10 |
-| **Chiarezza posizionamento** | Il concetto centrale è forte e tuo | Senza gerarchia, i servizi sembrano paritari | Una categoria: "sistemi AI e automazioni collegati ai processi aziendali" | "Chatbot" come parola principale | Positioning in Fase 2 |
-| **Credibilità** | Casi reali in settori diversi (viaggi, ristorazione, e-commerce) | Età/esperienza breve possono far pensare "junior" se il profilo non mostra lavoro concreto | Prove visibili: schema, screenshot, raccomandazioni | Titoli gonfiati | Mostrare il lavoro, non descriverlo |
-| **Proof / risultati** | 20 clienti in 48 ore; ≈40.000 € nel primo mese | Numeri senza contesto rischiano di sembrare claim da guru | Contesto: cosa ha fatto il sistema, cosa hanno fatto i consulenti, cosa misura il numero | Qualsiasi formulazione tipo "la mia AI ha generato 40k" | Formulazione corretta usata in tutto il profilo |
-| **Coerenza generale** | [DA VERIFICARE] | Due brand e molti servizi | Un filo unico: dal messaggio del cliente al CRM | Tutto ciò che non si collega a quel filo | Ogni sezione rimanda allo stesso concetto |
+#### Foto profilo
+- [INFORMAZIONE DA VERIFICARE: non inclusa nel PDF]
+- Criteri per valutarla da solo: viso circa 60% del frame, occhi a fuoco, sfondo neutro o ambiente di lavoro reale sfocato, niente luci LED, setup gaming o filtri, leggero sorriso. Deve comunicare "persona con cui fare una call di lavoro".
+
+#### Banner
+- [INFORMAZIONE DA VERIFICARE: non incluso nel PDF]
+- Da eliminare se presente: grigio di default, stock "AI" (robot, circuiti, blu/viola). Sostituire con uno dei concept in Fase 9.
+
+#### Headline
+Attuale: `Potenzio aziende con soluzioni AI avanzate | Automazione dei processi e lead generation` (87 caratteri su 220)
+- **Cosa funziona:** "Automazione dei processi" e "lead generation" sono keyword giuste, le tengo.
+- **Cosa non funziona:** "Potenzio" è uno dei verbi della tua lista nera e non dice cosa fai. "Soluzioni AI avanzate" è intercambiabile. Usi meno della metà dello spazio.
+- **Cosa manca:** Founder / PrimeSystemAI, per chi lavori, cosa costruisci in concreto (WhatsApp, telefono, CRM, follow-up).
+- **Cosa eliminare:** "Potenzio", "soluzioni AI avanzate".
+- **Cosa cambiare:** una delle 5 proposte in Fase 3.
+
+#### Info / Riepilogo
+Attuale: 619 caratteri su 2.600.
+- **Cosa funziona:** cita PrimeSystemAI, processi e lead; chiude con un invito a contattarti.
+- **Cosa non funziona:** quasi ogni frase è una formula: "professionista specializzato" (claim che non dimostri), "soluzioni AI avanzate", "piattaforme all'avanguardia", "strumento strategico di crescita", "potenziare l'efficienza operativa", "innovazione concreta e misurabile" (senza nessuna misura). "Sviluppo chatbot personalizzati" ti mette nella categoria sbagliata. "Aziende di ogni dimensione" significa nessun target. La CTA ("Vuoi scoprire come la tecnologia AI può accelerare il tuo business?") è da landing page.
+- **Cosa manca:** il concetto "l'AI è l'interfaccia, il valore è nel processo"; il flusso; Istante Viaggi con i numeri; come lavori; email.
+- **Cosa eliminare:** tutto il testo attuale.
+- **Cosa cambiare:** riscrittura completa (Fase 4).
+
+#### In primo piano (Featured)
+- [INFORMAZIONE DA VERIFICARE: non incluso nel PDF]
+- **Cosa deve esserci:** case study Istante Viaggi (documento), schema del flusso, demo, sito. Struttura in Fase 7.
+- **Cosa eliminare se presente:** post su novità AI o tool, contenuti non collegati al posizionamento.
+
+#### Esperienza PrimeSystemAI
+Attuale: "Founder & CEO", settembre 2024 – presente, Italia, 3 bullet.
+- **Cosa funziona:** date corrette, ruolo da founder.
+- **Cosa non funziona:** la prima cosa che si legge è "chatbot AI per il supporto clienti". "Integrazioni avanzate (es. make.com)" e "tecnologie innovative" non dicono niente. "Gestione delle relazioni con clienti" è un compito, non un valore. Zero progetti, zero risultati.
+- **Cosa manca:** cosa costruisci davvero, come lavori, Istante Viaggi / Lime / THE ALL, numeri, stack essenziale.
+- **Cosa eliminare:** i tre bullet attuali. "& CEO" nel titolo: per ricerca e percezione non aggiunge niente, e lo spazio del titolo è più utile per le keyword.
+- **Cosa cambiare:** titolo `Founder · Sistemi AI e automazioni per aziende`, località "Da remoto", descrizione in Fase 5.
+
+#### Esperienza precedente
+Attuale: "Responsabile e-commerce" presso "Freelance", febbraio 2024 – settembre 2024.
+- **Cosa funziona:** mostra esperienza operativa sulla vendita online, che dà continuità con il lavoro su Shopify e sui processi commerciali.
+- **Cosa non funziona:** "Freelance" come nome azienda ti fa sembrare proprio il freelance generalista che non vuoi essere, e non corrisponde a Puzzle Family. Le date non coincidono con quelle del brief (agosto 2023). Bullet generici ("garantendo il raggiungimento degli obiettivi di vendita").
+- **Cosa manca:** nome del progetto, natura del progetto (dropshipping), cosa hai costruito tu.
+- **Cosa cambiare:** azienda "Puzzle Family", titolo "E-commerce Manager", descrizione breve e onesta (sito costruito da te, ordini, app, fornitore). [INFORMAZIONE DA VERIFICARE: data di inizio, agosto 2023 o febbraio 2024]
+
+#### Progetti
+- **Stato:** assenti.
+- **Cosa fare:** aggiungere Istante Viaggi, Lime Tropical Bistrot, THE ALL, collegati a PrimeSystemAI (Fase 6).
+
+#### Servizi
+- [INFORMAZIONE DA VERIFICARE: la pagina Servizi non compare nel PDF]
+- Da attivare con 5–7 voci coerenti e la descrizione del blocco "Ready to paste".
+
+#### Competenze
+Principali attuali: E-commerce, Intelligenza artificiale per aziende, Intelligenza artificiale.
+- **Cosa non funziona:** "E-commerce" come prima competenza dice "sono uno che fa e-commerce". Le altre due sono le più generiche possibili: ti mettono in concorrenza con chiunque abbia scritto "AI" nel profilo.
+- **Cosa cambiare:** Top 5 e Top 15 in Fase 8. "E-commerce" resta nell'elenco, ma non in evidenza.
+
+#### Raccomandazioni
+- [INFORMAZIONE DA VERIFICARE]
+- Priorità: una raccomandazione di Istante Viaggi. Visto che hanno già autorizzato nome e numeri, è la richiesta più facile da fare adesso.
+
+#### Creator / attività
+- [INFORMAZIONE DA VERIFICARE: non inclusa nel PDF]
+- Dal brief: produci contenuti con costanza (guide pratiche, video), ma molto su tool e novità AI. Portano follower tech, non titolari di PMI. Mix consigliato più sotto.
+
+#### Formazione
+- Assente. Per un profilo da founder B2B non è un problema. Aggiungila se hai un titolo che vuoi mostrare. [INFORMAZIONE DA VERIFICARE]
+
+#### Call to action
+- Attuale: "Contattami per una consulenza personalizzata", con email Gmail.
+- Nuova: una frase sobria legata a un processo concreto, email aziendale, sito, link personalizzato.
+
+#### SEO interno LinkedIn
+- **Cosa funziona:** "automazione dei processi", "lead generation", "intelligenza artificiale" sono già presenti.
+- **Cosa manca:** WhatsApp, CRM, voice agent / assistente telefonico, AI agent, n8n, follow-up, riattivazione clienti, PMI. Mancano nei campi che pesano di più (headline e titolo del ruolo).
+
+#### Chiarezza del posizionamento, credibilità, proof, coerenza
+- **Chiarezza:** bassa. Chi legge capisce "fa cose con l'AI", non capisce cosa gli risolvi.
+- **Credibilità:** oggi si regge solo sulle tue parole ("specializzato"). Il profilo nuovo si regge su un caso con nome e numeri, autorizzato dal cliente.
+- **Proof:** zero nel profilo attuale, forte nella realtà.
+- **Coerenza:** nome, URL, email e competenze principali raccontano tre storie diverse (Mariano, Gmail, e-commerce). Da allineare.
 
 ### Scoring (rubric della skill)
 
-| Sezione | Peso | Punteggio attuale | Target dopo la revisione |
-|---|---|---|---|
-| Foto profilo | 15% | [DA VERIFICARE] | 75+ |
-| Banner | 8% | [DA VERIFICARE] | 80+ |
-| Headline | 15% | [DA VERIFICARE] | 80+ |
-| About | 15% | [DA VERIFICARE] | 85+ |
-| Featured | 5% | [DA VERIFICARE] | 75+ (sale a 85 con case study PDF + demo) |
-| Esperienza | 12% | [DA VERIFICARE] | 80+ |
-| Skills | 7% | [DA VERIFICARE] | 70 (sale con le conferme) |
-| Raccomandazioni | 7% | [DA VERIFICARE] | 60 con 2–3 raccomandazioni clienti |
-| Attività | 16% | [DA VERIFICARE] | 70 con 2 post/settimana coerenti |
-| Bilingue | 0% | n.a. | Peso ridistribuito su Attività (pubblico solo italiano, regola della skill) |
+| Sezione | Peso | Punteggio attuale | Motivo | Target |
+|---|---|---|---|---|
+| Foto profilo | 15% | n.d. | Non nel PDF | 75+ |
+| Banner | 8% | n.d. | Non nel PDF | 80+ |
+| Headline | 15% | **40** | Keyword giuste, ma nessun ruolo, nessun target, aggettivi generici | 80+ |
+| Info | 15% | **35** | Paragrafo generico, buzzword, nessun numero; la CTA c'è | 85+ |
+| Featured | 5% | n.d. | Non nel PDF | 75+ |
+| Esperienza | 12% | **35** | Solo responsabilità, nessun risultato, "Freelance" come azienda | 80+ |
+| Skills | 7% | **30** (provvisorio) | Top 3 generiche e disallineate, elenco completo non visibile | 70+ |
+| Raccomandazioni | 7% | n.d. | Non nel PDF | 60 |
+| Attività | 16% | n.d. | Non nel PDF | 70 |
+| Bilingue | 0% | n.a. | Pubblico italiano: peso spostato su Attività (regola della skill) | n.a. |
 
-Priorità per peso × gap probabile: **Headline, About, Featured con case study**. Sono anche gli interventi a sforzo più basso.
+**Punteggio sulle sezioni misurabili: circa 36/100.** La rubric indica circa 60 per un profilo "sufficiente".
+
+Priorità (peso × distanza dal target × sforzo basso): **1. Info · 2. Headline · 3. Esperienza PrimeSystemAI + Progetti.** Tutte e tre si fanno in un'ora con i testi qui sotto.
 
 ---
 
 ## FASE 2 — POSIZIONAMENTO
 
-**Target principale.** Titolari e decision maker di PMI italiane che ricevono richieste da clienti su più canali (WhatsApp, telefono, form, email) e le gestiscono a mano. Settori dove questo pesa di più: servizi con consulenza prima dell'acquisto (viaggi, immobiliare, cliniche, studi, formazione), hospitality, e-commerce. Secondario: responsabili commerciali e marketing.
+**Target principale.** Titolari e decision maker di PMI italiane che ricevono richieste da clienti su più canali (WhatsApp, telefono, form, email) e le gestiscono a mano. Pesa di più nei settori dove c'è una consulenza prima dell'acquisto e clienti che possono tornare: viaggi, hospitality, servizi, e-commerce. Secondario: responsabili commerciali e marketing.
 
-**Problema che risolvi.** Le richieste arrivano, ma il processo dietro è manuale: risposte lente o fuori orario, dati sparsi tra chat e fogli, lead non qualificati che fanno perdere tempo al commerciale, follow-up dimenticati, clienti in archivio mai ricontattati.
+**Problema che risolvi.** Le richieste arrivano, ma il processo dietro è manuale: risposte lente o fuori orario, dati sparsi tra chat e fogli, richieste non qualificate che fanno perdere tempo al commerciale, follow-up dimenticati, clienti in archivio mai ricontattati.
 
-**Categoria.** Non "chatbot", non "AI consultant" generico. La categoria è: **sistemi AI e automazioni collegati ai processi aziendali**. In pratica: chi progetta cosa succede prima e dopo la conversazione con l'AI.
+**Categoria.** Non "chatbot", non "AI consultant" generico. **Sistemi AI e automazioni collegati ai processi aziendali**: chi progetta cosa succede prima e dopo la conversazione con l'AI.
 
 **Differenziazione.**
-1. Parti dal processo, non dal tool. L'assistente è solo il punto di ingresso di un flusso con CRM, routing, follow-up, operatore umano.
-2. Costruisci tu, dall'analisi alla messa in produzione. Non solo strategia, non solo "prompt".
-3. Copri anche l'infrastruttura intorno (sito, tracciamento, Local SEO, e-commerce), quindi il sistema non si ferma dove finisce l'AI.
-4. Hai un caso con numeri reali, raccontato senza gonfiarlo.
+1. Parti dal processo, non dal tool. L'assistente è il punto di ingresso di un flusso con CRM, routing, follow-up e operatore umano.
+2. Costruisci tu, dall'analisi alla messa in produzione.
+3. Copri anche l'infrastruttura intorno (sito, tracciamento, Local SEO, e-commerce).
+4. Hai un caso con nome, numeri e consenso del cliente, raccontato senza gonfiarlo.
 
 **Proof principali.**
-- Istante Viaggi: sistema WhatsApp in produzione; 20 clienti riattivati nelle prime 48 ore di una campagna; circa 40.000 € generati nel primo mese dalla campagna gestita con il sistema (sistema AI + automazioni + processo commerciale dei consulenti).
-- Lime Tropical Bistrot: presenza digitale completa per un locale (sito Framer, consenso cookie, GA4/GTM, Schema.org, Local SEO, Google Business Profile). Nessun numero disponibile.
-- THE ALL: e-commerce Shopify gestito ed evoluto nel tempo (checkout, IVA, indicizzazione, chatbot con handoff). Nessun numero disponibile.
+- **Istante Viaggi:** l'automazione Make ricontatta su WhatsApp i clienti già in archivio; quando rispondono, l'agente AI raccoglie le informazioni sul nuovo viaggio e le passa al consulente. 20 clienti riattivati nelle prime 48 ore. Nel primo mese, circa 40.000 € di fatturato dai clienti che hanno riprenotato dopo i messaggi del sistema. Il sistema gestisce anche transcript e summary, follow-up, campagne post-viaggio, recensioni e promozioni.
+- **Lime Tropical Bistrot:** presenza digitale completa per un locale. Nessun numero disponibile.
+- **THE ALL:** e-commerce Shopify gestito ed evoluto nel tempo. Nessun numero disponibile.
+- **Puzzle Family:** e-commerce in dropshipping gestito in prima persona (sito, ordini, app, fornitore). Conta come esperienza operativa, non come proof.
 
-**Keywords strategiche.** automazione processi aziendali · AI agent / agenti AI · assistente WhatsApp AI · voice agent / assistente telefonico AI · automazioni n8n · Make · integrazione CRM · qualificazione lead · follow-up automatico · riattivazione clienti · chatbot AI (solo come keyword di ricerca, non come identità).
+**Keywords strategiche.** automazione processi aziendali · AI agent / agenti AI · assistente WhatsApp AI · voice agent / assistente telefonico AI · automazioni n8n · Make · integrazione CRM · qualificazione lead / lead generation · follow-up automatico · riattivazione clienti · chatbot AI (solo come keyword di ricerca, non come identità).
 
 **Messaggio centrale del profilo.**
 > L'AI è l'interfaccia. Il valore è nel processo che c'è dietro.
@@ -92,15 +164,16 @@ Priorità per peso × gap probabile: **Headline, About, Featured con case study*
 
 ## FASE 3 — HEADLINE
 
-**Headline attuale:** [INFORMAZIONE DA VERIFICARE]. Senza il testo non posso analizzarla. Criteri con cui valutarla da solo: dice cosa fai? per chi? contiene 2–3 keyword che un cliente cercherebbe? evita elenchi di tool e aggettivi?
+**Headline attuale:** `Potenzio aziende con soluzioni AI avanzate | Automazione dei processi e lead generation`
+Punteggio 40/100. Tiene due keyword utili ma non dice chi sei, per chi lavori né cosa costruisci. "Potenzio" e "soluzioni AI avanzate" sono le formule che vuoi eliminare. Usa 87 caratteri su 220.
 
 Limite LinkedIn: 220 caratteri. Nel feed e nei commenti si vedono circa i primi 60–70: la parte più importante va all'inizio.
 
-**1. Orientata al risultato** (159 caratteri)
+**1. Orientata al risultato** (161 caratteri)
 ```
-Sistemi AI e automazioni per PMI | Per un'agenzia viaggi: 20 clienti riattivati in 48 ore e circa 40.000 € nel primo mese dalla campagna gestita con il sistema
+Sistemi AI e automazioni per PMI | Per Istante Viaggi: 20 clienti riattivati in 48 ore e circa 40.000 € di riprenotazioni nel primo mese dai messaggi del sistema
 ```
-Trade-off: il proof più forte subito visibile. Ma un numero in headline invecchia, va spiegato (e l'About lo spiega) e serve il consenso del cliente a citarne il settore. Rischio di sembrare "numero da ads" se il resto del profilo non lo sostiene.
+Trade-off: il proof più forte visibile subito, con nome del cliente (autorizzato). Ma è lunga, il numero invecchia e senza contesto può sembrare un claim da ads. Funziona solo se About e Featured la spiegano bene.
 
 **2. Founder + PrimeSystemAI** (158 caratteri)
 ```
@@ -112,27 +185,29 @@ Trade-off: chiara, credibile, keyword naturali, esprime il concetto "processo". 
 ```
 AI Agent e automazioni n8n/Make per aziende | Assistenti WhatsApp e voice agent collegati al CRM: qualificano le richieste, fanno follow-up e passano il cliente all'operatore
 ```
-Trade-off: la più forte per la ricerca e per chi sa già cosa cerca. Più tecnica: un titolare non tecnico si ferma a "n8n/Make" senza capirli. Rischio di attirare più tecnici che clienti.
+Trade-off: la più forte per la ricerca e per chi sa già cosa cerca. Più tecnica: un titolare non tecnico si ferma a "n8n/Make". Rischia di attirare più tecnici che clienti.
 
 **4. Semplice e autorevole** (63 caratteri)
 ```
 Founder di PrimeSystemAI · Sistemi AI e automazioni per aziende
 ```
-Trade-off: sobria, si legge intera ovunque. Ma non dice per chi, né cosa risolvi, e lascia tutto il lavoro al banner e all'About. Funziona meglio quando il nome è già conosciuto.
+Trade-off: sobria, si legge intera ovunque. Ma non dice per chi né cosa risolvi, e lascia tutto il lavoro a banner e Info.
 
 **5. Più commerciale** (185 caratteri)
 ```
 Richieste dei clienti che restano ore senza risposta? Costruisco assistenti AI su WhatsApp e telefono che rispondono, qualificano e passano il cliente giusto al tuo team | PrimeSystemAI
 ```
-Trade-off: parla direttamente del dolore del titolare, massima chiarezza sul beneficio. Tono da annuncio: alcuni decision maker lo leggono come "venditore", ed è quello che vuoi evitare. Poche keyword di categoria.
+Trade-off: parla direttamente del problema del titolare, massima chiarezza sul beneficio. Tono da annuncio: alcuni decision maker lo leggono come "venditore". Poche keyword di categoria.
 
-**Default consigliato: la 2.** È l'unica che tiene insieme tutte le tue richieste: dice che sei founder, cosa costruisci, che è collegato ai processi (quindi non "solo chatbot"), e contiene keyword che vengono davvero cercate, senza numeri da spiegare e senza tono da venditore. Il proof numerico lo metti nelle prime righe dell'About e nel Featured, dove ha lo spazio per essere spiegato bene. Dopo 60 giorni puoi testare la 1 e confrontare le visite al profilo.
+**Default consigliato: la 2.** È l'unica che copre tutte le tue richieste: dice che sei founder, cosa costruisci, che è collegato ai processi (quindi non "solo chatbot"), e contiene keyword che vengono cercate davvero. Non ha numeri da spiegare né tono da venditore. Tiene "automazioni" e "qualifica lead", l'equivalente delle due keyword buone dell'headline attuale. Il proof numerico va nelle prime righe dell'Info e nel Featured, dove c'è spazio per spiegarlo. Dopo 60 giorni puoi testare la 1 e confrontare le visite al profilo.
 
 ---
 
 ## FASE 4 — ABOUT / INFO
 
-Limite: 2.600 caratteri. Prima di "vedi altro" si vedono circa 2–3 righe (circa 200–300 caratteri da desktop, meno da mobile). In quelle righe devono esserci: cosa fai, per chi, il concetto centrale.
+Limite: 2.600 caratteri (l'attuale ne usa 619). Prima di "vedi altro" si vedono 2–3 righe: lì devono esserci cosa fai, per chi e il concetto centrale.
+
+**Cosa cambia rispetto all'attuale:** via "specializzato", "avanzate", "all'avanguardia", "potenziare", "innovazione", "chatbot personalizzati", "aziende di ogni dimensione". Al loro posto: il flusso, il caso Istante Viaggi con numeri spiegati correttamente, il metodo, l'email aziendale.
 
 ### VERSIONE A (pulita e autorevole)
 
@@ -148,8 +223,9 @@ In un assistente AI la conversazione è la parte visibile. Il lavoro vero è que
 messaggio del cliente → classificazione della richiesta → estrazione dei dati → aggiornamento del CRM → routing → follow-up → operatore umano, quando serve → report
 
 Un caso concreto
-Per Istante Viaggi, agenzia di viaggi, ho costruito un sistema su WhatsApp che gestisce le conversazioni, raccoglie le informazioni sul viaggio, qualifica la richiesta e la passa al consulente con un riassunto già pronto. Lo stesso sistema segue i follow-up, le campagne post-viaggio, le richieste di recensione e la riattivazione dei clienti in archivio.
-In una campagna di riattivazione, 20 clienti sono stati riattivati nelle prime 48 ore. Nel primo mese, la campagna gestita attraverso il sistema, insieme al lavoro dei consulenti dell'agenzia, ha generato circa 40.000 €.
+Per Istante Viaggi, agenzia di viaggi, ho costruito un sistema che ricontatta su WhatsApp i clienti già in archivio. Un'automazione su Make invia il messaggio; quando il cliente risponde, un assistente AI raccoglie le informazioni sul nuovo viaggio e passa la richiesta al consulente con un riassunto già pronto.
+Nelle prime 48 ore 20 clienti dell'archivio sono tornati attivi con una nuova richiesta. Nel primo mese, i clienti che hanno riprenotato dopo i messaggi del sistema hanno portato circa 40.000 € di fatturato. La vendita resta ai consulenti: il sistema fa arrivare da loro le persone giuste, con le informazioni già raccolte.
+Lo stesso sistema gestisce follow-up, campagne post-viaggio e richieste di recensione.
 
 Come lavoro
 Parto dall'analisi del processo e dei colli di bottiglia. Poi progetto la soluzione, scelgo lo stack, sviluppo, integro con i software che l'azienda usa già, testo e metto in produzione. Dopo il lancio monitoro e miglioro, perché un sistema che parla con i clienti va seguito nel tempo.
@@ -158,7 +234,7 @@ Mi occupo anche dell'infrastruttura digitale che sta intorno: siti e landing pag
 
 Strumenti che uso più spesso: n8n, Make, OpenAI, Claude, Voiceflow, Vapi.
 
-Se in azienda c'è un processo che dipende da qualcuno che risponde, copia dati o si ricorda di richiamare, scrivimi in privato o a [EMAIL DA VERIFICARE]. In una chiamata capiamo se ha senso automatizzarlo e da dove partire.
+Se in azienda c'è un processo che dipende da qualcuno che risponde, copia dati o si ricorda di richiamare, scrivimi in privato o a simone.stavolo@primesystemai.com. In una chiamata capiamo se ha senso automatizzarlo e da dove partire.
 ```
 
 ### VERSIONE B (più personale, founder-led)
@@ -168,31 +244,32 @@ Il chatbot è la parte facile di un progetto AI.
 
 La parte difficile è tutto il resto: capire quale richiesta va gestita subito e quale passata a una persona, dove salvare i dati, quando mandare il follow-up, cosa fare se il cliente smette di rispondere.
 
-Mi chiamo Simone e ho fondato PrimeSystemAI per lavorare esattamente su questo. Costruisco sistemi AI e automazioni per aziende italiane: assistenti su WhatsApp e al telefono collegati al CRM, qualifica dei lead, follow-up, riattivazione dei clienti, passaggio all'operatore umano.
+Mi chiamo Simone e ho fondato PrimeSystemAI nel 2024 per lavorare su questo. Costruisco sistemi AI e automazioni per aziende italiane: assistenti su WhatsApp e al telefono collegati al CRM, qualifica dei lead, follow-up, riattivazione dei clienti, passaggio all'operatore umano.
 
 Per me l'AI è l'interfaccia. Il valore è nel processo che c'è dietro.
 
-Il progetto più completo finora è con Istante Viaggi, un'agenzia di viaggi. Su WhatsApp il sistema gestisce le conversazioni, raccoglie i dettagli del viaggio, qualifica la richiesta e la passa al consulente con transcript e riassunto. Intorno ci sono follow-up automatici, campagne post-viaggio, richieste di recensione e riattivazione dei clienti in archivio.
-In una delle campagne di riattivazione, 20 clienti sono stati riattivati nelle prime 48 ore. Nel primo mese la campagna, gestita attraverso il sistema e con i consulenti dell'agenzia a seguire le trattative, ha generato circa 40.000 €. Adesso sto lavorando alla versione successiva: architettura più agentica, workflow deterministici e playbook per i diversi scenari della conversazione.
+Il progetto più completo finora è con Istante Viaggi, un'agenzia di viaggi. Avevano un archivio di clienti che avevano già viaggiato con loro. Con un'automazione su Make li ricontattiamo su WhatsApp; chi risponde parla con un assistente AI che raccoglie destinazione, date e dettagli del nuovo viaggio, poi passa tutto al consulente con transcript e riassunto.
+Nelle prime 48 ore sono tornati attivi 20 clienti. Nel primo mese, chi ha riprenotato dopo quei messaggi ha portato circa 40.000 € di fatturato. Le vendite le chiudono i consulenti, il sistema li fa arrivare al momento giusto con le informazioni giuste.
+Adesso sto lavorando alla versione successiva: architettura più agentica, workflow deterministici e playbook per i diversi scenari della conversazione.
 
-Non lavoro solo sugli agenti. Per un ristorante ho costruito sito, tracciamento e presenza su Google; per un e-commerce Shopify seguo negozio, checkout, fiscalità e indicizzazione. Sono pezzi meno visibili, ma è lì che un sistema regge o si rompe.
-
-Prima di PrimeSystemAI ho lavorato come E-commerce Manager in Puzzle Family. [INFORMAZIONE DA VERIFICARE: una frase su cosa hai gestito lì]
+Prima di PrimeSystemAI ho gestito un e-commerce in dropshipping, Puzzle Family: sito, ordini, app, fornitore. Oggi seguo anche un e-commerce Shopify per un cliente e ho costruito sito, tracciamento e presenza su Google per un ristorante. Sono pezzi meno visibili, ma è lì che un sistema regge o si rompe.
 
 Se hai un processo che oggi dipende da qualcuno che risponde, copia dati o si ricorda di richiamare, scrivimi. Una chiamata basta per capire se ha senso automatizzarlo.
-[EMAIL DA VERIFICARE]
+simone.stavolo@primesystemai.com
 ```
 
 ### Quale struttura
 
-**Consiglio la Versione A.** Il tuo lettore è un titolare che valuta un fornitore: nelle prime due righe trova cosa fai, per chi e il concetto centrale, e trova il caso con i numeri prima di metà testo. La B apre meglio come "storia" e funziona bene per chi ti conosce dai contenuti, ma il primo a capo ("Il chatbot è la parte facile") non dice ancora cosa vendi, e nel troncamento di LinkedIn rischi di perdere il lettore freddo. La riga sul lavoro in corso con architettura agentica (presente nella B) è utile: la trovi comunque nel case study e nell'esperienza.
+**Consiglio la Versione A.** Il tuo lettore è un titolare che valuta un fornitore: nelle prime due righe trova cosa fai, per chi e il concetto centrale, e il caso con i numeri arriva prima di metà testo. La B apre meglio come storia e funziona per chi ti conosce già dai contenuti, ma la prima riga ("Il chatbot è la parte facile") non dice ancora cosa vendi, e nel troncamento di LinkedIn rischi di perdere il lettore freddo. La riga sull'evoluzione agentica e il passaggio su Puzzle Family, presenti nella B, li trovi comunque nell'esperienza e nei progetti.
 
 ---
 
 ## FASE 5 — ESPERIENZA PRIMESYSTEMAI
 
-**Titolo del ruolo:** `Founder · Sistemi AI e automazioni per aziende` (il titolo del ruolo pesa nella ricerca LinkedIn, non lasciare solo "Founder").
-**Tipo:** Lavoro autonomo / Fondatore. **Date:** [INFORMAZIONE DA VERIFICARE: mese e anno di inizio]. **Località:** [INFORMAZIONE DA VERIFICARE] · Da remoto/ibrido.
+**Cosa cambia:** titolo da "Founder & CEO" a un titolo con keyword; località da "Italia" a "Da remoto"; via i bullet su "chatbot AI" e "tecnologie innovative"; dentro metodo, progetti e risultati.
+
+**Titolo:** `Founder · Sistemi AI e automazioni per aziende`
+**Tipo:** Lavoro autonomo · **Date:** set 2024 – presente · **Località:** Da remoto
 
 ```
 PrimeSystemAI progetta e costruisce sistemi AI e automazioni collegati ai processi reali delle aziende: gestione delle richieste, qualifica dei lead, follow-up, CRM, assistenza clienti.
@@ -210,13 +287,22 @@ Come lavoro
 Analisi del processo e dei colli di bottiglia, progettazione, scelta dello stack, sviluppo, test, messa in produzione. Poi monitoraggio e miglioramento: un sistema in produzione va seguito.
 
 Alcuni progetti
-Istante Viaggi, agenzia di viaggi. Sistema WhatsApp per riattivazione clienti, qualifica delle richieste, passaggio al consulente, follow-up e campagne post-viaggio. 20 clienti riattivati nelle prime 48 ore di una campagna; circa 40.000 € generati nel primo mese dalla campagna gestita con il sistema, insieme al lavoro dei consulenti.
+Istante Viaggi, agenzia di viaggi. Riattivazione dei clienti in archivio: automazione Make che li ricontatta su WhatsApp, assistente AI che raccoglie i dati del nuovo viaggio e passa la richiesta al consulente. 20 clienti riattivati nelle prime 48 ore; nel primo mese, circa 40.000 € di fatturato dai clienti che hanno riprenotato dopo i messaggi del sistema.
 
 Lime Tropical Bistrot, ristorazione. Sito in Framer con menu digitale, tracciamento GA4 e Tag Manager, gestione del consenso, SEO tecnica e Local SEO su Google Business Profile.
 
 THE ALL, e-commerce Shopify di forniture per la pulizia professionale. Sviluppo ed evoluzione del negozio, checkout e configurazione IVA, indicizzazione su Search Console e Merchant Center, chatbot con passaggio all'operatore.
 
 Stack principale: n8n, Make, OpenAI, Claude, Voiceflow, Vapi, Shopify, Framer.
+```
+
+### Esperienza Puzzle Family
+
+**Cosa cambia:** azienda da "Freelance" a "Puzzle Family"; titolo "E-commerce Manager"; descrizione onesta sul dropshipping. Tengo le attività già presenti nel profilo attuale (marketing, logistica, analisi dati, campagne) e aggiungo quelle che mi hai confermato (sito, ordini, app, fornitore). Niente numeri, perché non ne hai indicati. Spazio minimo: questa esperienza sostiene la storia, non la guida.
+
+```
+E-commerce in dropshipping che ho gestito in prima persona.
+Ho costruito il sito e configurato le app del negozio, poi seguito la parte operativa ogni giorno: ordini, rapporto con il fornitore, logistica, assistenza ai clienti. Sul lato vendite ho lavorato su campagne promozionali e sull'analisi dei dati per migliorare le conversioni.
 ```
 
 ---
@@ -228,28 +314,30 @@ Stack principale: n8n, Make, OpenAI, Claude, Voiceflow, Vapi, Shopify, Framer.
 | Formato | Uso consigliato | Perché |
 |---|---|---|
 | **Sezione Progetti** | Tutti e tre, collegati all'esperienza PrimeSystemAI | Sono indicizzati, si collegano a skill specifiche, restano stabili nel tempo |
-| **Esperienza** | Solo un paragrafo per progetto (già nel testo Fase 5) | Non trasformare l'esperienza in un portfolio lungo |
-| **Featured** | Solo Istante Viaggi come documento/carousel PDF | È il proof più forte; un PDF di 8 slide si legge nel feed e dal profilo |
-| **Post/carousel** | Istante Viaggi (lancio del case study), poi dietro le quinte | Il post genera visibilità, il Featured la conserva |
-| **Link esterni** | Pagina case study sul sito PrimeSystemAI, se esiste | [INFORMAZIONE DA VERIFICARE: esiste una pagina casi studio?] |
+| **Esperienza** | Un paragrafo per progetto (già nel testo Fase 5) | Non trasformare l'esperienza in un portfolio lungo |
+| **Featured** | Istante Viaggi come documento/carousel PDF | È il proof più forte; un PDF di 9 slide si legge nel feed e dal profilo |
+| **Post/carousel** | Istante Viaggi come lancio, poi dietro le quinte | Il post genera visibilità, il Featured la conserva |
+| **Link esterni** | Pagina case study su primesystemai.com | [INFORMAZIONE DA VERIFICARE: esiste già una pagina casi studio?] |
 
 Lime e THE ALL non hanno numeri: vanno in Progetti, non in Featured.
 
 ### Progetti pronti
 
 **1. Istante Viaggi**
-Titolo: `Istante Viaggi · Sistema AI su WhatsApp per gestione richieste e riattivazione clienti`
-Collegato a: PrimeSystemAI. Date: [INFORMAZIONE DA VERIFICARE]. Skill collegate: Agenti AI, Automazione dei processi aziendali, Make.com, Integrazione CRM, Lead generation.
+Titolo: `Istante Viaggi · Riattivazione clienti e gestione richieste con AI su WhatsApp`
+Associato a: PrimeSystemAI. Date: [INFORMAZIONE DA VERIFICARE: mese di avvio]. Skill collegate: Agenti AI, Automazione dei processi aziendali, Make.com, Integrazione CRM, Lead generation.
 ```
-Agenzia di viaggi con molte conversazioni su WhatsApp e un archivio di clienti da ricontattare.
+Agenzia di viaggi con un archivio di clienti che avevano già viaggiato e molte conversazioni gestite su WhatsApp.
 
-Ho progettato e costruito un sistema su WhatsApp con Voiceflow, Make e modelli AI che:
-• gestisce le conversazioni e raccoglie le informazioni sul viaggio
-• qualifica la richiesta e la passa al consulente umano con transcript e riassunto automatico
+Il sistema, costruito con Make, Voiceflow, WhatsApp e modelli AI:
+• ricontatta su WhatsApp i clienti già presenti nel database con un'automazione Make
+• quando il cliente risponde, un assistente AI raccoglie destinazione, date e dettagli del nuovo viaggio e qualifica la richiesta
+• passa la richiesta al consulente umano con transcript e riassunto automatico della conversazione
 • gestisce follow-up, campagne post-viaggio, richieste di recensione e campagne promozionali
-• riattiva i clienti già in archivio
 
-Risultati: 20 clienti riattivati nelle prime 48 ore di una campagna di riattivazione. Circa 40.000 € generati nel primo mese dalla campagna gestita attraverso il sistema, con i consulenti dell'agenzia a seguire le trattative.
+Risultati
+20 clienti riattivati nelle prime 48 ore.
+Circa 40.000 € di fatturato nel primo mese dai clienti che hanno riprenotato una vacanza dopo i messaggi del sistema. Le vendite le hanno chiuse i consulenti dell'agenzia; il sistema ha portato da loro le richieste con le informazioni già raccolte.
 
 In corso: evoluzione verso un'architettura più agentica, con workflow deterministici e playbook per i diversi scenari della conversazione.
 ```
@@ -278,56 +366,57 @@ Sul lato clienti: chatbot integrato nel negozio con passaggio all'operatore uman
 
 ### Case study LinkedIn completo: Istante Viaggi
 
-Formato consigliato: **documento PDF (carousel) di 9 slide**, caricato come post e poi fissato in Featured. Struttura modificata rispetto a quella proposta: ho aggiunto "Come funziona" come schema visivo (è il punto che ti differenzia) e separato "Cosa ha fatto il sistema / cosa hanno fatto le persone" per rendere i numeri credibili.
+Formato: **documento PDF (carousel) di 9 slide**, caricato come post e poi fissato in Featured. Rispetto alla struttura proposta ho aggiunto "Come funziona" come schema (è il tuo punto di differenza) e separato cosa fa l'AI, cosa fanno le automazioni e cosa fanno le persone, così i numeri restano credibili.
 
-Prerequisito: [INFORMAZIONE DA VERIFICARE: consenso di Istante Viaggi a essere citata per nome e a pubblicare i numeri]. Se non c'è, usa "un'agenzia di viaggi italiana".
+Consenso di Istante Viaggi a nome e numeri: **confermato**.
 
-**Slide 1 — Copertina**
-Come un'agenzia di viaggi gestisce WhatsApp con un sistema AI collegato al lavoro dei consulenti
+**Slide 1 · Copertina**
+20 clienti riattivati in 48 ore: come Istante Viaggi ricontatta il suo archivio con WhatsApp e AI
 Case study · PrimeSystemAI
 
-**Slide 2 — Situazione**
-Agenzia di viaggi. Le richieste arrivano soprattutto su WhatsApp. C'è un archivio di clienti che hanno già viaggiato con l'agenzia.
-[INFORMAZIONE DA VERIFICARE: dimensione del team, volume di messaggi, numero di contatti in archivio]
+**Slide 2 · Situazione**
+Agenzia di viaggi. Le richieste arrivano soprattutto su WhatsApp. In archivio ci sono clienti che hanno già viaggiato con l'agenzia.
+[INFORMAZIONE DA VERIFICARE: numero di contatti in archivio e dimensione del team, se vuoi aggiungerli]
 
-**Slide 3 — Problema**
-[INFORMAZIONE DA VERIFICARE: descrivi con parole dell'agenzia cosa non funzionava. Esempi di cosa chiedere al cliente: tempi di risposta, richieste perse, consulenti che passavano tempo su richieste non qualificate, clienti passati mai ricontattati]
+**Slide 3 · Problema**
+[INFORMAZIONE DA VERIFICARE: in una o due frasi, con parole dell'agenzia. Da chiedere: i clienti passati venivano ricontattati? quanto tempo passavano i consulenti a raccogliere le informazioni base del viaggio?]
 
-**Slide 4 — Il sistema**
+**Slide 4 · Il sistema**
 Non un chatbot isolato. Un processo:
-messaggio su WhatsApp → assistente AI → raccolta dati del viaggio → qualifica → consulente umano con riassunto → follow-up
+database clienti → messaggio WhatsApp (Make) → risposta del cliente → assistente AI → dati del nuovo viaggio → consulente con riassunto → follow-up
 
-**Slide 5 — Cosa fa l'AI**
-Risponde, fa le domande giuste, raccoglie destinazione, date e dettagli, riconosce quando serve una persona.
+**Slide 5 · Cosa fa l'AI**
+Risponde, fa le domande giuste, raccoglie destinazione, date e dettagli, capisce quando passare la conversazione a una persona.
 
-**Slide 6 — Cosa fanno le automazioni**
-Transcript e riassunto della conversazione per il consulente. Follow-up. Campagne post-viaggio e richiesta di recensioni. Campagne promozionali. Riattivazione dei clienti in archivio.
+**Slide 6 · Cosa fanno le automazioni**
+Invio dei messaggi di riattivazione. Transcript e riassunto per il consulente. Follow-up. Campagne post-viaggio, richieste di recensione, campagne promozionali.
 
-**Slide 7 — Cosa fanno le persone**
-I consulenti ricevono richieste già qualificate e seguono la trattativa. Il sistema non vende da solo: toglie lavoro ripetitivo e fa arrivare il consulente al momento giusto.
+**Slide 7 · Cosa fanno le persone**
+I consulenti ricevono richieste con le informazioni già raccolte e chiudono la vendita. Il sistema non vende da solo: toglie lavoro ripetitivo e porta il cliente dal consulente al momento giusto.
 
-**Slide 8 — Risultati**
-20 clienti riattivati nelle prime 48 ore di una campagna di riattivazione.
-Circa 40.000 € generati nel primo mese dalla campagna gestita con il sistema.
-[INFORMAZIONE DA VERIFICARE: specifica cosa misurano i 40.000 € (vendite/prenotazioni confermate? fatturato lordo?) e cosa significa "riattivato" (ha risposto? ha richiesto un preventivo? ha prenotato?)]
+**Slide 8 · Risultati**
+20 clienti dell'archivio riattivati nelle prime 48 ore.
+Circa 40.000 € di fatturato nel primo mese dai clienti che hanno riprenotato una vacanza dopo i messaggi del sistema.
 
-**Slide 9 — Stack e prossimo passo**
-Voiceflow · Make · WhatsApp · modelli AI.
+**Slide 9 · Stack e prossimo passo**
+Make · Voiceflow · WhatsApp · modelli AI.
 Prossimo passo: architettura più agentica, workflow deterministici, playbook per ogni scenario della conversazione.
-Simone Stavolo · PrimeSystemAI
+Simone Stavolo · PrimeSystemAI · primesystemai.com
 
 **Testo del post che accompagna il PDF**
 ```
-Un assistente AI su WhatsApp, da solo, non fa vendere un'agenzia di viaggi.
+Un'agenzia di viaggi ha già i suoi clienti migliori. Sono nel database, e di solito nessuno li ricontatta.
 
-Quello che ha funzionato con Istante Viaggi è il processo intorno: l'AI raccoglie destinazione, date e dettagli, qualifica la richiesta, e il consulente riceve la conversazione con un riassunto già pronto. Poi follow-up, campagne post-viaggio, richieste di recensione, riattivazione dei clienti in archivio.
+Con Istante Viaggi abbiamo fatto questo: un'automazione su Make scrive su WhatsApp ai clienti che hanno già viaggiato con loro. Chi risponde parla con un assistente AI che raccoglie destinazione, date e dettagli del nuovo viaggio. Poi la richiesta passa al consulente, con transcript e riassunto già pronti.
 
-In una campagna di riattivazione, 20 clienti sono stati riattivati nelle prime 48 ore.
-Nel primo mese la campagna gestita con il sistema ha generato circa 40.000 €. Le trattative le hanno seguite i consulenti. Il sistema ha fatto in modo che arrivassero al momento giusto, con le informazioni giuste.
+Nelle prime 48 ore sono tornati attivi 20 clienti.
+Nel primo mese, chi ha riprenotato dopo quei messaggi ha portato circa 40.000 € di fatturato.
+
+Le vendite le hanno chiuse i consulenti. Il sistema ha fatto in modo che ci arrivassero al momento giusto, con le informazioni giuste.
 
 Nel documento c'è come è costruito, passo per passo.
 
-Voi come gestite oggi i clienti che hanno già comprato una volta e poi spariscono?
+Nella vostra azienda, quanti clienti "vecchi" sono fermi in un database?
 
 #AIAgents #AutomazioneAziendale #WhatsAppBusiness #PMI
 ```
@@ -336,16 +425,16 @@ Voi come gestite oggi i clienti che hanno già comprato una volta e poi sparisco
 
 ## FASE 7 — FEATURED / IN PRIMO PIANO
 
-Quattro elementi, non di più finché non hai materiale forte. Ordine pensato per un titolare che arriva dal nulla: prova → metodo → chi sei → come contattarti.
+Quattro elementi. Ordine pensato per un titolare che arriva dal nulla: prova → metodo → dimostrazione → contatto.
 
 | # | Titolo | Descrizione | Tipo | CTA implicita |
 |---|---|---|---|---|
-| 1 | Case study: WhatsApp + AI per un'agenzia di viaggi | Come è costruito il sistema di Istante Viaggi e cosa ha prodotto nel primo mese. | Post con documento PDF (carousel Fase 6) | "Voglio qualcosa di simile per la mia azienda" |
-| 2 | Cosa c'è dietro un assistente AI | Dal messaggio del cliente al CRM: classificazione, dati, routing, follow-up, operatore umano. | Post con immagine/schema del flusso (da creare) | "Questo è il livello a cui lavora, non un chatbot" |
-| 3 | Demo: dal messaggio WhatsApp al CRM in 90 secondi | Una conversazione reale di test, il riassunto per l'operatore, l'aggiornamento del CRM. | Video nativo o link a video (da creare) [INFORMAZIONE DA VERIFICARE: demo disponibile senza dati del cliente] | "Posso vederlo funzionare" |
-| 4 | PrimeSystemAI | Sistemi AI e automazioni collegati ai processi aziendali. Casi, metodo e contatti. | Link al sito [INFORMAZIONE DA VERIFICARE: URL e presenza di una pagina contatti] | "Posso contattarlo" |
+| 1 | Case study: 20 clienti riattivati in 48 ore | Come Istante Viaggi ricontatta il suo archivio con WhatsApp e AI, e cosa ha prodotto nel primo mese. | Post con documento PDF (carousel Fase 6) | "Voglio qualcosa di simile per la mia azienda" |
+| 2 | Cosa c'è dietro un assistente AI | Dal messaggio del cliente al CRM: classificazione, dati, routing, follow-up, operatore umano. | Post con immagine/schema del flusso (da creare) | "Lavora sul processo, non vende un chatbot" |
+| 3 | Demo: dal messaggio WhatsApp al consulente in 90 secondi | Una conversazione di test, il riassunto per l'operatore, l'aggiornamento dei dati. | Video nativo (da creare, con dati di test) | "Posso vederlo funzionare" |
+| 4 | PrimeSystemAI | Sistemi AI e automazioni collegati ai processi aziendali. Casi, metodo e contatti. | Link a https://primesystemai.com/ | "Posso contattarlo" |
 
-**Riserva (5° elemento, opzionale):** la tua guida "Workflow recensioni WhatsApp + Make" (già esistente su Drive) come risorsa scaricabile. Utile perché mostra un sistema reale e l'etica sul feedback, ma è più da creator che da fornitore: mettila solo se la pubblichi come post LinkedIn e porta conversazioni con titolari.
+**Riserva (5° elemento, opzionale):** la tua guida "Workflow recensioni WhatsApp + Make" (già su Drive) come risorsa scaricabile. Mostra un sistema reale, ma è più da creator che da fornitore: mettila solo se, pubblicata come post, porta conversazioni con titolari.
 
 **Da non mettere:** post su novità di Claude o altri tool, guide su tool di terzi, post motivazionali, certificazioni generiche.
 
@@ -353,16 +442,18 @@ Quattro elementi, non di più finché non hai materiale forte. Ordine pensato pe
 
 ## FASE 8 — SKILLS
 
+**Cosa cambia:** le attuali competenze principali (E-commerce, Intelligenza artificiale per aziende, Intelligenza artificiale) escono dalle prime posizioni. "E-commerce" resta nell'elenco completo; le due voci "Intelligenza artificiale" puoi tenerle in fondo per la ricerca, ma non in evidenza.
+
 ### Mappa (per ragionare, non da inserire così)
 
-- **Business:** analisi dei processi aziendali, lead generation, gestione della relazione con i clienti (CRM), e-commerce.
-- **AI:** agenti AI, conversational AI, voice AI, chatbot, intelligenza artificiale generativa.
-- **Automation:** automazione dei processi aziendali, n8n, Make.com, marketing automation, email marketing automatizzato.
-- **Technical implementation:** integrazione API, integrazione CRM, integrazione di sistemi.
+- **Business:** analisi dei processi aziendali, lead generation, CRM, e-commerce.
+- **AI:** agenti AI, conversational AI, voice AI, chatbot.
+- **Automation:** automazione dei processi aziendali, n8n, Make.com, marketing automation.
+- **Technical implementation:** integrazione API, integrazione CRM.
 - **Marketing/digital:** Local SEO, SEO, Google Analytics, Google Tag Manager.
 - **Software/platform:** Shopify, Framer, Voiceflow, Vapi, OpenAI API.
 
-Da evitare: Microsoft Office, "Problem solving", "Teamwork", "ChatGPT" come skill principale, "Prompt engineering" come skill in evidenza (ti colloca nella categoria creator/tool), tool che non usi più.
+Da evitare: Microsoft Office, "Problem solving", "Teamwork", "ChatGPT" come skill principale, "Prompt engineering" in evidenza (ti colloca tra i creator di tool), tool che non usi più.
 
 ### TOP 5 (da mostrare come "Competenze principali" nella sezione Info)
 
@@ -388,94 +479,94 @@ Da evitare: Microsoft Office, "Problem solving", "Teamwork", "ChatGPT" come skil
 12. Analisi dei processi aziendali
 13. Shopify
 14. Local SEO
-15. Google Analytics
+15. E-commerce
 
-Nota: su LinkedIn i nomi delle skill sono standardizzati. Scegli la voce suggerita più vicina (in italiano se esiste, altrimenti in inglese, es. "AI Agents"). Collega ogni skill all'esperienza PrimeSystemAI e ai Progetti pertinenti: le skill "usate in" un ruolo pesano di più di quelle scollegate.
+Su LinkedIn i nomi delle skill sono standardizzati: scegli la voce suggerita più vicina (in italiano se esiste, altrimenti in inglese, es. "AI Agents"). Collega ogni skill all'esperienza PrimeSystemAI e ai Progetti pertinenti ("E-commerce" anche a Puzzle Family).
 
 ---
 
 ## FASE 9 — BANNER
 
 Formato 1584 × 396 px. Su desktop la foto copre la zona in basso a sinistra, su mobile il banner viene tagliato ai lati: testo nella metà destra, dentro l'area centrale.
-Estetica comune ai tre: fondo carta/avorio o antracite, un solo colore d'accento (verde scuro, terracotta o blu inchiostro), serif editoriale per il titolo (es. Fraunces, Newsreader) e sans pulito per il resto (es. Inter). Niente robot, cervelli, circuiti, neon, gradienti blu/viola.
+Estetica comune: fondo carta/avorio o antracite, un solo colore d'accento (verde scuro, terracotta o blu inchiostro), serif editoriale per il titolo (es. Fraunces, Newsreader), sans pulito per il resto (es. Inter). Niente robot, cervelli, circuiti, neon, gradienti blu/viola.
 
-**Concept 1 — "Il processo"** (consigliato)
+**Concept 1 · "Il processo"** (consigliato)
 - Headline: `L'AI è l'interfaccia. Il valore è nel processo.`
 - Subheadline: `Sistemi AI e automazioni per aziende · PrimeSystemAI`
-- Visivo: sotto il titolo, una riga sottile di sei etichette collegate da frecce: Messaggio → Classificazione → Dati → CRM → Follow-up → Operatore. Tratto a matita, stile schema su carta.
+- Visivo: sotto il titolo, una riga sottile di sei etichette collegate da frecce: Messaggio → Classificazione → Dati → CRM → Follow-up → Operatore. Tratto sottile, stile schema su carta.
 - Layout: fondo avorio, titolo serif nero a destra su due righe, schema in piccolo sotto, logo PrimeSystemAI piccolo in alto a destra.
 
-**Concept 2 — "Il primo messaggio"**
+**Concept 2 · "Il primo messaggio"**
 - Headline: `Progetto cosa succede dopo "Buongiorno, vorrei informazioni".`
 - Subheadline: `Assistenti WhatsApp e telefonici collegati a CRM, follow-up e team · PrimeSystemAI`
-- Visivo: un'unica bolla di messaggio in stile tipografico (non uno screenshot di WhatsApp, per evitare il marchio), con 3–4 annotazioni a mano che partono dalla bolla: "dati del viaggio", "CRM", "consulente".
-- Layout: fondo antracite, bolla chiara al centro-destra, annotazioni in colore d'accento.
+- Visivo: un'unica bolla di messaggio disegnata in stile tipografico (non uno screenshot di WhatsApp, per evitare il marchio), con 3–4 annotazioni a mano che partono dalla bolla: "dati del viaggio", "CRM", "consulente".
+- Layout: fondo antracite, bolla chiara al centro-destra, annotazioni nel colore d'accento.
 
-**Concept 3 — "Lavoro reale"**
-- Headline: `Sistemi AI in produzione per PMI italiane`
-- Subheadline: `WhatsApp · Voice · CRM · Automazioni n8n e Make`
-- Visivo: foto reale in bianco e nero di te al lavoro su una lavagna o un foglio con uno schema di processo (fuori fuoco), metà sinistra. Nessuno schermo con codice.
-- Layout: foto a sinistra sotto la foto profilo, blocco testo avorio a destra.
+**Concept 3 · "Il caso"**
+- Headline: `20 clienti riattivati in 48 ore.`
+- Subheadline: `Sistemi AI e automazioni collegati ai processi · Caso Istante Viaggi · PrimeSystemAI`
+- Visivo: numero grande in serif, sotto una riga sottile con "database → WhatsApp → assistente AI → consulente".
+- Layout: fondo avorio, numero a destra, testo piccolo sotto. Da aggiornare quando avrai un secondo caso: un banner con un solo numero invecchia.
 
 ---
 
 ## FASE 10 — PROFILE SEO
 
-Su LinkedIn pesano di più, in quest'ordine: headline, titolo del ruolo attuale, nome azienda, Info, skills, descrizioni di esperienza e progetti. Una keyword va messa dove ha senso leggerla, non ripetuta.
+Su LinkedIn pesano di più, in quest'ordine: nome, headline, titolo del ruolo attuale, nome azienda, Info, skill, descrizioni di esperienza e progetti. Una keyword va messa dove ha senso leggerla, non ripetuta.
 
 | Keyword | Priorità | Dove inserirla |
 |---|---|---|
-| sistemi AI / sistemi di intelligenza artificiale | Alta | Headline, titolo ruolo, prima riga About, banner |
-| automazione processi aziendali / automazioni | Alta | Headline, titolo ruolo, About, skill #1, Servizi |
-| AI agent / agenti AI | Alta | Skill #2, esperienza, post (non in headline default: in italiano i titolari cercano più "automazione" e "assistente") |
-| assistente WhatsApp / WhatsApp automation | Alta | Headline, About, esperienza, progetto Istante Viaggi |
-| CRM / integrazione CRM | Alta | Headline, About (flusso), skill #3, esperienza |
+| sistemi AI | Alta | Headline, titolo ruolo, prima riga Info, banner |
+| automazione processi aziendali / automazioni | Alta | Headline, titolo ruolo, Info, skill #1, Servizi |
+| AI agent / agenti AI | Alta | Skill #2, esperienza, post (non in headline default: i titolari italiani cercano più "automazione" e "assistente") |
+| assistente WhatsApp / WhatsApp automation | Alta | Headline, Info, esperienza, progetto Istante Viaggi |
+| CRM / integrazione CRM | Alta | Headline, Info (flusso), skill #3, esperienza |
 | qualifica lead / lead generation | Media | Headline ("qualifica lead"), skill, Servizi |
-| follow-up automatico | Media | Headline, About, esperienza |
-| voice agent / assistente telefonico AI / Voice AI | Media | Headline ("telefonici"), About, esperienza, skill |
-| n8n, Make | Media | About (strumenti), esperienza, skill. Mai in apertura |
+| follow-up automatico | Media | Headline, Info, esperienza |
+| voice agent / assistente telefonico AI / Voice AI | Media | Headline ("telefonici"), Info, esperienza, skill |
+| riattivazione clienti | Media | Info, progetto Istante Viaggi, case study |
+| n8n, Make | Media | Info (strumenti), esperienza, skill. Mai in apertura |
 | chatbot AI | Bassa (solo ricerca) | Una skill, progetto THE ALL. Non come identità |
-| riattivazione clienti | Media | About, progetto Istante Viaggi |
-| Local SEO, Shopify | Bassa | Progetti, skill, una riga di About |
-| PMI | Media | Servizi, About, post |
+| Local SEO, Shopify, e-commerce | Bassa | Progetti, skill, una riga di Info |
+| PMI | Media | Headline alternativa 1, Info, Servizi, post |
 
-Altri campi utili: URL pubblico personalizzato (`linkedin.com/in/simonestavolo` se libero), località precisa, link personalizzato del profilo con testo descrittivo.
+Altri campi: URL personalizzato `linkedin.com/in/simonestavolo` (se libero, altrimenti `/simone-stavolo`), località Roma (la tieni: aiuta nei filtri per zona), sito e link personalizzato nell'introduzione.
 
 ---
 
 ## CONTENUTI / CREATOR ACTIVITY (supporto al posizionamento)
 
-Il tuo lavoro sui contenuti è un asset, ma il mix attuale che descrivi (novità AI, Claude, tool) porta un pubblico di curiosi e tecnici. Su LinkedIn sposterei il peso così:
+Il lavoro sui contenuti è un asset, ma il mix che descrivi (novità AI, Claude, tool) porta un pubblico di curiosi e tecnici. Su LinkedIn sposterei il peso così:
 
 | Pilastro | Quota | Esempi |
 |---|---|---|
-| Sistemi e processi | 40% | Anatomia di un assistente WhatsApp; quando passare all'operatore umano; perché i summary delle conversazioni fanno risparmiare tempo al commerciale |
-| Casi e dietro le quinte | 30% | Istante Viaggi a puntate; un errore o un limite scoperto in produzione; come funziona un playbook di conversazione |
-| Opinione per titolari | 20% | Quando un chatbot non serve; cosa chiedere a chi ti vende un "agente AI" |
+| Sistemi e processi | 40% | Anatomia di un assistente WhatsApp; quando passare all'operatore umano; perché i riassunti delle conversazioni fanno risparmiare tempo al commerciale |
+| Casi e dietro le quinte | 30% | Istante Viaggi a puntate (riattivazione, post-viaggio, recensioni); un limite scoperto in produzione; come funziona un playbook di conversazione |
+| Opinione per titolari | 20% | Quando un chatbot non serve; cosa chiedere a chi ti vende un "agente AI"; il database clienti come asset dimenticato |
 | Tool e novità, filtrati | 10% | Solo se spieghi cosa cambia per un'azienda |
 
-Cadenza: 2 post a settimana (martedì e giovedì 08:30–09:30, Europe/Rome) per 60 giorni. La regola della skill vale: almeno un post al mese su qualcosa che non ha funzionato.
+Cadenza: 2 post a settimana (martedì e giovedì 08:30–09:30, Europe/Rome) per 60 giorni. Regola della skill: almeno un post al mese su qualcosa che non ha funzionato.
 
 ---
 
 ## FASE 11 — GAP ANALYSIS
 
-Ordinati per rapporto impatto / sforzo.
+Ordinati per rapporto impatto / sforzo. Già risolti in chat: significato dei numeri, consenso di Istante Viaggi, date, email, sito.
 
 | # | Cosa manca | Impatto | Sforzo | Cosa fare |
 |---|---|---|---|---|
-| 1 | Formulazione verificata dei numeri Istante Viaggi | Alto | Basso | Conferma cosa misurano i 40.000 € e cosa vuol dire "riattivato". Una riga, ma protegge tutta la credibilità del profilo |
-| 2 | Consenso del cliente a essere citato | Alto | Basso | Messaggio a Istante Viaggi: ok a nome e numeri? |
-| 3 | Raccomandazione da Istante Viaggi | Alto | Basso | Chiedila con una traccia: situazione prima, cosa hai costruito, cosa è cambiato. Poi Lime e THE ALL |
-| 4 | Case study PDF in Featured | Alto | Medio | 9 slide già scritte in Fase 6, mancano i dati [DA VERIFICARE] |
-| 5 | Schema del flusso (immagine) | Alto | Basso | Una sola immagine: messaggio → AI → dati → CRM → routing → follow-up → operatore → analytics. Serve per Featured, banner e post |
-| 6 | Screenshot risultati (anonimizzati) | Medio-alto | Basso | Dashboard, riassunto automatico di una conversazione, log di automazione. Oscura i dati personali (GDPR) |
-| 7 | Demo video 60–90 secondi | Alto | Medio | Conversazione di test su WhatsApp o voice agent → summary → CRM aggiornato |
-| 8 | Pagina casi studio sul sito PrimeSystemAI | Medio | Medio | Da linkare in Featured e contatti [DA VERIFICARE se esiste] |
-| 9 | Numeri per Lime e THE ALL | Medio | Medio | Anche indicatori semplici: chiamate/indicazioni stradali da Google Business Profile, pagine indicizzate, ordini gestiti. Solo se misurati |
-| 10 | Foto profilo professionale | Medio | Medio | Un'ora con un fotografo o una buona luce naturale |
+| 1 | Contatti e identità allineati | Alto | Molto basso | Email aziendale, sito, URL personalizzato. 5 minuti |
+| 2 | Raccomandazione da Istante Viaggi | Alto | Basso | Hanno già autorizzato nome e numeri: chiedila ora, con una traccia (situazione prima, cosa hai costruito, cosa è cambiato). Poi Lime e THE ALL |
+| 3 | Schema del flusso (immagine) | Alto | Basso | Una sola immagine: messaggio → AI → dati → CRM → routing → follow-up → operatore → analytics. Serve per Featured, banner e post |
+| 4 | Case study PDF in Featured | Alto | Medio | 9 slide già scritte in Fase 6; mancano solo situazione e problema con parole dell'agenzia |
+| 5 | Screenshot reali anonimizzati | Medio-alto | Basso | Riassunto automatico di una conversazione, scenario Make, messaggio di riattivazione. Oscura i dati personali (GDPR) |
+| 6 | Demo video 60–90 secondi | Alto | Medio | Conversazione di test → riassunto → passaggio al consulente |
+| 7 | Pagina case study su primesystemai.com | Medio | Medio | Da linkare in Featured e nel post [INFORMAZIONE DA VERIFICARE se esiste] |
+| 8 | Numeri per Lime e THE ALL | Medio | Medio | Solo se misurati: azioni da Google Business Profile, pagine indicizzate, ordini gestiti |
+| 9 | Foto profilo e banner verificati | Medio | Basso–medio | Mandami gli screenshot per l'audit visivo |
+| 10 | Data di inizio Puzzle Family | Basso | Molto basso | Agosto 2023 (brief) o febbraio 2024 (profilo attuale)? |
 | 11 | Profilo in inglese (seconda lingua dello stesso profilo) | Basso ora | Medio | Solo se inizi a lavorare fuori Italia. Mai un secondo account |
-| 12 | Certificazioni | Basso | Variabile | Per il tuo target contano meno di un caso documentato. Non prioritarie |
+| 12 | Certificazioni | Basso | Variabile | Per il tuo target contano meno di un caso documentato |
 
 ---
 
@@ -499,8 +590,9 @@ In un assistente AI la conversazione è la parte visibile. Il lavoro vero è que
 messaggio del cliente → classificazione della richiesta → estrazione dei dati → aggiornamento del CRM → routing → follow-up → operatore umano, quando serve → report
 
 Un caso concreto
-Per Istante Viaggi, agenzia di viaggi, ho costruito un sistema su WhatsApp che gestisce le conversazioni, raccoglie le informazioni sul viaggio, qualifica la richiesta e la passa al consulente con un riassunto già pronto. Lo stesso sistema segue i follow-up, le campagne post-viaggio, le richieste di recensione e la riattivazione dei clienti in archivio.
-In una campagna di riattivazione, 20 clienti sono stati riattivati nelle prime 48 ore. Nel primo mese, la campagna gestita attraverso il sistema, insieme al lavoro dei consulenti dell'agenzia, ha generato circa 40.000 €.
+Per Istante Viaggi, agenzia di viaggi, ho costruito un sistema che ricontatta su WhatsApp i clienti già in archivio. Un'automazione su Make invia il messaggio; quando il cliente risponde, un assistente AI raccoglie le informazioni sul nuovo viaggio e passa la richiesta al consulente con un riassunto già pronto.
+Nelle prime 48 ore 20 clienti dell'archivio sono tornati attivi con una nuova richiesta. Nel primo mese, i clienti che hanno riprenotato dopo i messaggi del sistema hanno portato circa 40.000 € di fatturato. La vendita resta ai consulenti: il sistema fa arrivare da loro le persone giuste, con le informazioni già raccolte.
+Lo stesso sistema gestisce follow-up, campagne post-viaggio e richieste di recensione.
 
 Come lavoro
 Parto dall'analisi del processo e dei colli di bottiglia. Poi progetto la soluzione, scelgo lo stack, sviluppo, integro con i software che l'azienda usa già, testo e metto in produzione. Dopo il lancio monitoro e miglioro, perché un sistema che parla con i clienti va seguito nel tempo.
@@ -509,16 +601,16 @@ Mi occupo anche dell'infrastruttura digitale che sta intorno: siti e landing pag
 
 Strumenti che uso più spesso: n8n, Make, OpenAI, Claude, Voiceflow, Vapi.
 
-Se in azienda c'è un processo che dipende da qualcuno che risponde, copia dati o si ricorda di richiamare, scrivimi in privato o a [EMAIL DA VERIFICARE]. In una chiamata capiamo se ha senso automatizzarlo e da dove partire.
+Se in azienda c'è un processo che dipende da qualcuno che risponde, copia dati o si ricorda di richiamare, scrivimi in privato o a simone.stavolo@primesystemai.com. In una chiamata capiamo se ha senso automatizzarlo e da dove partire.
 ```
-Competenze principali (Top 5 in Info): Automazione dei processi aziendali · Agenti AI (AI Agents) · Integrazione CRM · n8n · Conversational AI
+Competenze principali: Automazione dei processi aziendali · Agenti AI (AI Agents) · Integrazione CRM · n8n · Conversational AI
 
 ## ESPERIENZA — PRIMESYSTEMAI
 Titolo: `Founder · Sistemi AI e automazioni per aziende`
 Azienda: `PrimeSystemAI`
 Tipo di impiego: `Lavoro autonomo`
-Date: `[INFORMAZIONE DA VERIFICARE] – Presente`
-Località: `[INFORMAZIONE DA VERIFICARE]`
+Date: `set 2024 – Presente`
+Località: `Da remoto`
 ```
 PrimeSystemAI progetta e costruisce sistemi AI e automazioni collegati ai processi reali delle aziende: gestione delle richieste, qualifica dei lead, follow-up, CRM, assistenza clienti.
 
@@ -535,7 +627,7 @@ Come lavoro
 Analisi del processo e dei colli di bottiglia, progettazione, scelta dello stack, sviluppo, test, messa in produzione. Poi monitoraggio e miglioramento: un sistema in produzione va seguito.
 
 Alcuni progetti
-Istante Viaggi, agenzia di viaggi. Sistema WhatsApp per riattivazione clienti, qualifica delle richieste, passaggio al consulente, follow-up e campagne post-viaggio. 20 clienti riattivati nelle prime 48 ore di una campagna; circa 40.000 € generati nel primo mese dalla campagna gestita con il sistema, insieme al lavoro dei consulenti.
+Istante Viaggi, agenzia di viaggi. Riattivazione dei clienti in archivio: automazione Make che li ricontatta su WhatsApp, assistente AI che raccoglie i dati del nuovo viaggio e passa la richiesta al consulente. 20 clienti riattivati nelle prime 48 ore; nel primo mese, circa 40.000 € di fatturato dai clienti che hanno riprenotato dopo i messaggi del sistema.
 
 Lime Tropical Bistrot, ristorazione. Sito in Framer con menu digitale, tracciamento GA4 e Tag Manager, gestione del consenso, SEO tecnica e Local SEO su Google Business Profile.
 
@@ -547,27 +639,31 @@ Stack principale: n8n, Make, OpenAI, Claude, Voiceflow, Vapi, Shopify, Framer.
 ## ESPERIENZA — PUZZLE FAMILY
 Titolo: `E-commerce Manager`
 Azienda: `Puzzle Family`
-Date: `ago 2023 – set 2024`
+Tipo di impiego: `Lavoro autonomo`
+Date: `ago 2023 – set 2024` [INFORMAZIONE DA VERIFICARE: il profilo attuale indica feb 2024]
+Località: `Da remoto`
 ```
-Gestione del canale e-commerce aziendale.
-[INFORMAZIONE DA VERIFICARE: 2–3 righe con attività reali (piattaforma usata, canali e marketplace, catalogo, campagne, customer care) ed eventuali numeri misurati. Se non hai dati, lascia solo la prima riga.]
+E-commerce in dropshipping che ho gestito in prima persona.
+Ho costruito il sito e configurato le app del negozio, poi seguito la parte operativa ogni giorno: ordini, rapporto con il fornitore, logistica, assistenza ai clienti. Sul lato vendite ho lavorato su campagne promozionali e sull'analisi dei dati per migliorare le conversioni.
 ```
 
 ## PROGETTI
 
 **Progetto 1**
-Nome: `Istante Viaggi · Sistema AI su WhatsApp per gestione richieste e riattivazione clienti`
+Nome: `Istante Viaggi · Riattivazione clienti e gestione richieste con AI su WhatsApp`
 Associato a: `PrimeSystemAI`
 ```
-Agenzia di viaggi con molte conversazioni su WhatsApp e un archivio di clienti da ricontattare.
+Agenzia di viaggi con un archivio di clienti che avevano già viaggiato e molte conversazioni gestite su WhatsApp.
 
-Ho progettato e costruito un sistema su WhatsApp con Voiceflow, Make e modelli AI che:
-• gestisce le conversazioni e raccoglie le informazioni sul viaggio
-• qualifica la richiesta e la passa al consulente umano con transcript e riassunto automatico
+Il sistema, costruito con Make, Voiceflow, WhatsApp e modelli AI:
+• ricontatta su WhatsApp i clienti già presenti nel database con un'automazione Make
+• quando il cliente risponde, un assistente AI raccoglie destinazione, date e dettagli del nuovo viaggio e qualifica la richiesta
+• passa la richiesta al consulente umano con transcript e riassunto automatico della conversazione
 • gestisce follow-up, campagne post-viaggio, richieste di recensione e campagne promozionali
-• riattiva i clienti già in archivio
 
-Risultati: 20 clienti riattivati nelle prime 48 ore di una campagna di riattivazione. Circa 40.000 € generati nel primo mese dalla campagna gestita attraverso il sistema, con i consulenti dell'agenzia a seguire le trattative.
+Risultati
+20 clienti riattivati nelle prime 48 ore.
+Circa 40.000 € di fatturato nel primo mese dai clienti che hanno riprenotato una vacanza dopo i messaggi del sistema. Le vendite le hanno chiuse i consulenti dell'agenzia; il sistema ha portato da loro le richieste con le informazioni già raccolte.
 
 In corso: evoluzione verso un'architettura più agentica, con workflow deterministici e playbook per i diversi scenari della conversazione.
 ```
@@ -598,8 +694,8 @@ Sul lato clienti: chatbot integrato nel negozio con passaggio all'operatore uman
 
 **1**
 Tipo: `Post con documento PDF`
-Titolo: `Case study: WhatsApp + AI per un'agenzia di viaggi`
-Descrizione: `Come è costruito il sistema di Istante Viaggi e cosa ha prodotto nel primo mese.`
+Titolo: `Case study: 20 clienti riattivati in 48 ore`
+Descrizione: `Come Istante Viaggi ricontatta il suo archivio con WhatsApp e AI, e cosa ha prodotto nel primo mese.`
 
 **2**
 Tipo: `Post con immagine`
@@ -608,14 +704,14 @@ Descrizione: `Dal messaggio del cliente al CRM: classificazione, dati, routing, 
 
 **3**
 Tipo: `Video`
-Titolo: `Demo: dal messaggio WhatsApp al CRM in 90 secondi`
-Descrizione: `Una conversazione di test, il riassunto per l'operatore, l'aggiornamento del CRM.`
+Titolo: `Demo: dal messaggio WhatsApp al consulente in 90 secondi`
+Descrizione: `Una conversazione di test, il riassunto per l'operatore, l'aggiornamento dei dati.`
 
 **4**
 Tipo: `Link`
 Titolo: `PrimeSystemAI`
 Descrizione: `Sistemi AI e automazioni collegati ai processi aziendali. Casi, metodo e contatti.`
-URL: `[INFORMAZIONE DA VERIFICARE]`
+URL: `https://primesystemai.com/`
 
 ## SERVIZI
 Servizi da selezionare (voci più vicine nell'elenco LinkedIn): `Automazione dei processi aziendali` · `Consulenza IT` · `Integrazione di software` · `Sviluppo di chatbot / Conversational AI` · `Marketing automation` · `Consulenza e-commerce` · `SEO`
@@ -639,7 +735,7 @@ Integrazione API
 Analisi dei processi aziendali
 Shopify
 Local SEO
-Google Analytics
+E-commerce
 ```
 
 ## BANNER COPY
@@ -650,46 +746,47 @@ Messaggio → Classificazione → Dati → CRM → Follow-up → Operatore
 ```
 
 ## CTA / CONTACT INFO
-Link personalizzato (introduzione profilo): URL `[INFORMAZIONE DA VERIFICARE: sito PrimeSystemAI]` · testo `Casi e contatti · PrimeSystemAI`
-Sito web (Informazioni di contatto): `[INFORMAZIONE DA VERIFICARE]` · tipo `Azienda`
-Email: `[INFORMAZIONE DA VERIFICARE]`
+Link personalizzato (introduzione profilo): `https://primesystemai.com/` · testo: `Casi e contatti · PrimeSystemAI`
+Sito web (Informazioni di contatto): `https://primesystemai.com/` · tipo: `Azienda`
+Email: `simone.stavolo@primesystemai.com`
 URL profilo: `linkedin.com/in/simonestavolo`
-Chiusura About:
+Località profilo: `Roma, Lazio, Italia`
+Chiusura Info:
 ```
-Se in azienda c'è un processo che dipende da qualcuno che risponde, copia dati o si ricorda di richiamare, scrivimi in privato o a [EMAIL DA VERIFICARE]. In una chiamata capiamo se ha senso automatizzarlo e da dove partire.
+Se in azienda c'è un processo che dipende da qualcuno che risponde, copia dati o si ricorda di richiamare, scrivimi in privato o a simone.stavolo@primesystemai.com. In una chiamata capiamo se ha senso automatizzarlo e da dove partire.
 ```
 
 ---
 
 # PIANO DI IMPLEMENTAZIONE
 
-Prima di iniziare: Impostazioni → Visibilità → disattiva "Condividi aggiornamenti del profilo con la tua rete", così non mandi 15 notifiche ai collegamenti mentre modifichi. Riattivala alla fine solo per l'ultimo aggiornamento (il cambio headline).
+Prima di iniziare: Impostazioni → Visibilità → disattiva "Condividi le modifiche del profilo" (la voce che notifica la rete), così non mandi una notifica ai collegamenti per ogni modifica.
 
 **Giorno 1 (circa 1 ora, nessun materiale nuovo necessario)**
-1. Verifica le informazioni marcate [DA VERIFICARE]: significato dei 40.000 € e dei "20 riattivati", data di inizio PrimeSystemAI, email, URL sito, consenso di Istante Viaggi.
-2. URL pubblico personalizzato (`linkedin.com/in/simonestavolo`, se libero).
-3. Esperienza PrimeSystemAI: titolo, date, descrizione.
-4. Esperienza Puzzle Family: date e descrizione breve.
+1. Informazioni di contatto: sostituisci la Gmail con simone.stavolo@primesystemai.com, aggiungi il sito https://primesystemai.com/.
+2. URL pubblico: da `/mariano-simone-stavolo` a `/simonestavolo` (se libero). Decidi se mostrare "Simone Stavolo" come nome.
+3. Esperienza PrimeSystemAI: titolo, località "Da remoto", descrizione nuova (cancella i tre bullet attuali).
+4. Esperienza "Freelance" → rinominala: azienda Puzzle Family, titolo E-commerce Manager, date verificate, descrizione nuova.
 5. Sezione Progetti: Istante Viaggi, Lime Tropical Bistrot, THE ALL, tutti associati a PrimeSystemAI.
-6. Skills: elimina quelle non pertinenti, aggiungi le 15, collegale a esperienza e progetti.
-7. Info/About: incolla la Versione A, poi imposta le 5 Competenze principali.
-8. Informazioni di contatto: sito, email, link personalizzato.
+6. Skills: aggiungi le 15, collegale a esperienze e progetti, togli dalle prime posizioni E-commerce e le due voci "Intelligenza artificiale".
+7. Info: cancella il testo attuale, incolla la Versione A, imposta le 5 Competenze principali.
+8. Link personalizzato nell'introduzione.
 9. Pagina Servizi: seleziona le voci e incolla la descrizione.
 
 **Giorno 2–3**
-10. Headline (ultima modifica testuale: se vuoi, riattiva la condivisione degli aggiornamenti solo qui).
-11. Banner: concept 1 in 1584 × 396, verifica da desktop e mobile che la foto non copra il testo.
-12. Foto profilo, se l'audit visivo la boccia.
+10. Headline. È l'ultima modifica testuale: se vuoi che la rete veda il cambio, riattiva la condivisione solo per questa.
+11. Banner: concept 1 in 1584 × 396; controlla da desktop e da mobile che la foto non copra il testo.
+12. Foto profilo, dopo l'audit visivo (mandami lo screenshot).
 
 **Settimana 1–2**
-13. Schema del flusso (immagine) → pubblicalo come post → aggiungilo in Featured (#2).
-14. Chiedi la raccomandazione a Istante Viaggi, poi a Lime e THE ALL.
-15. Link al sito in Featured (#4).
+13. Chiedi la raccomandazione a Istante Viaggi, poi a Lime e THE ALL.
+14. Schema del flusso (immagine) → pubblicalo come post → Featured #2.
+15. Link al sito in Featured #4.
 
 **Settimana 2–4**
-16. Case study PDF Istante Viaggi → pubblicalo con il testo del post → fissalo in Featured (#1).
-17. Demo video → pubblicala → Featured (#3).
+16. Case study PDF Istante Viaggi (completa le slide 2–3) → pubblicalo con il testo del post → Featured #1.
+17. Demo video → pubblicala → Featured #3.
 18. Avvio calendario: 2 post a settimana, martedì e giovedì 08:30–09:30.
 
 **Dopo 30 giorni**
-19. Invia gli analytics dei post (visualizzazioni, reazioni, commenti, visite al profilo) e il PDF del profilo aggiornato: rifaccio lo scoring con la rubric e aggiusto calendario e, se serve, headline (test con la proposta 1).
+19. Mandami gli analytics dei post (visualizzazioni, reazioni, commenti, visite al profilo) e il nuovo PDF del profilo: rifaccio lo scoring rispetto a oggi (circa 36/100 sulle sezioni misurabili) e aggiusto calendario ed eventualmente headline (test con la proposta 1).
