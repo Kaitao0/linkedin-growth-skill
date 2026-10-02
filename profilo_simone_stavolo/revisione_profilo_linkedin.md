@@ -691,6 +691,18 @@ Ho progettato e realizzato il sito in Framer con menu digitale, poi la parte che
 Sul lato Local SEO ho lavorato su Google Business Profile, compresa la risoluzione di problemi di profili duplicati e fusi.
 ```
 
+**Progetto 2b**
+Nome: `MDA Carrozzeria · Sito web e presenza su Google per una carrozzeria`
+Associato a: `PrimeSystemAI`
+```
+Sito web e presenza digitale per una carrozzeria.
+
+Ho progettato e realizzato il sito [piattaforma], poi la parte tecnica che non si vede: [SEO tecnica, Search Console, Google Analytics 4 e Tag Manager, gestione del consenso cookie, pagine Privacy e Cookie, dati strutturati].
+
+Sul lato Local SEO ho lavorato su [Google Business Profile].
+```
+[INFORMAZIONE DA VERIFICARE: tenere tra parentesi quadre solo le attività svolte davvero]
+
 **Progetto 3**
 Nome: `THE ALL · Sviluppo e gestione e-commerce Shopify`
 Associato a: `PrimeSystemAI`
@@ -762,7 +774,7 @@ Link personalizzato (introduzione profilo): `https://primesystemai.com/` · test
 Sito web (Informazioni di contatto): `https://primesystemai.com/` · tipo: `Azienda`
 Disponibile per: `Fornire servizi`
 Nome: `Mariano Simone Stavolo` (invariato, mantiene il badge di verifica)
-Email: `simone.stavolo@primesystemai.com`
+Email: `simone.stavolo@primesystemai.com` nel testo di Info. Se LinkedIn non la accetta come email dell'account (es. perché è usata per la verifica del luogo di lavoro), lascia la Gmail come principale e nascondila da Impostazioni → Visibilità → "Chi può vedere il tuo indirizzo email"
 URL profilo: `linkedin.com/in/simonestavolo`
 Località profilo: `Roma, Lazio, Italia`
 Chiusura Info:
